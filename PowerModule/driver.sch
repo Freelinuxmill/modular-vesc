@@ -1,0 +1,1523 @@
+EESchema Schematic File Version 4
+LIBS:PowerModule-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:NTMFS5C604NLT1G Q?
+U 1 1 5D4B9A50
+P 2900 850
+AR Path="/5D4B9A50" Ref="Q?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9A50" Ref="Q1"  Part="1" 
+F 0 "Q1" V 3400 550 50  0000 R CNN
+F 1 "NTMFS5C604NLT1G" H 3350 500 50  0000 R CNN
+F 2 "Import Mouser:DFN5_5X6(SO-8FL)_CASE-488AA_ISSUE_M-1" H 3650 950 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/NTMFS5C604NLT1G.pdf" H 3650 850 50  0001 L CNN
+F 4 "Power MOSFET" H 3650 750 50  0001 L CNN "Description"
+F 5 "" H 3650 650 50  0001 L CNN "Height"
+F 6 "863-NTMFS5C604NLT1G" H 3650 550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NTMFS5C604NLT1G" H 3650 450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 3650 350 50  0001 L CNN "Manufacturer_Name"
+F 9 "NTMFS5C604NLT1G" H 3650 250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2900 850 
+	0    -1   1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:LM5113SDE_NOPB IC?
+U 1 1 5D4B9A5C
+P 1000 1800
+AR Path="/5D4B9A5C" Ref="IC?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9A5C" Ref="IC1"  Part="1" 
+F 0 "IC1" H 1250 2050 50  0000 C CNN
+F 1 "LM5113SDE_NOPB" H 1750 2050 50  0000 C CNN
+F 2 "Import Mouser:SON80P400X400X80-11N" H 1850 1900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/lm5113" H 1850 1800 50  0001 L CNN
+F 4 "Texas Instruments LM5113SDE/NOPB, Dual MOSFET Power Driver 1.2 A, 5 A Half Bridge, 4.5  5.5 V, Non-Inverting" H 1850 1700 50  0001 L CNN "Description"
+F 5 "0.8" H 1850 1600 50  0001 L CNN "Height"
+F 6 "926-LM5113SDE/NOPB" H 1850 1500 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=926-LM5113SDE%2FNOPB" H 1850 1400 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 1850 1300 50  0001 L CNN "Manufacturer_Name"
+F 9 "LM5113SDE/NOPB" H 1850 1200 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D4B9A62
+P 750 2150
+AR Path="/5D4B9A62" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9A62" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 750 2000 50  0001 C CNN
+F 1 "+5V" H 700 2300 50  0000 C CNN
+F 2 "" H 750 2150 50  0001 C CNN
+F 3 "" H 750 2150 50  0001 C CNN
+	1    750  2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D4B9A68
+P 900 2350
+AR Path="/5D4B9A68" Ref="C?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9A68" Ref="C4"  Part="1" 
+F 0 "C4" H 785 2304 50  0000 R CNN
+F 1 "2u2" H 785 2395 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 938 2200 50  0001 C CNN
+F 3 "~" H 900 2350 50  0001 C CNN
+	1    900  2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	750  2150 750  2200
+Wire Wire Line
+	750  2200 900  2200
+$Comp
+L power:VSS #PWR?
+U 1 1 5D4B9A70
+P 750 2550
+AR Path="/5D4B9A70" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9A70" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 750 2400 50  0001 C CNN
+F 1 "VSS" H 768 2723 50  0000 C CNN
+F 2 "" H 750 2550 50  0001 C CNN
+F 3 "" H 750 2550 50  0001 C CNN
+	1    750  2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D4B9A76
+P 2400 1800
+AR Path="/5D4B9A76" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9A76" Ref="R6"  Part="1" 
+F 0 "R6" V 2193 1800 50  0000 C CNN
+F 1 "3R9" V 2284 1800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 1800 50  0001 C CNN
+F 3 "~" H 2400 1800 50  0001 C CNN
+	1    2400 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D4B9A7C
+P 2400 2400
+AR Path="/5D4B9A7C" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9A7C" Ref="R7"  Part="1" 
+F 0 "R7" V 2500 2250 50  0000 C CNN
+F 1 "3R9" V 2500 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2330 2400 50  0001 C CNN
+F 3 "~" H 2400 2400 50  0001 C CNN
+	1    2400 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 2200 2150 2200
+Wire Wire Line
+	2150 2200 2150 2300
+Wire Wire Line
+	2150 2300 2300 2300
+Wire Wire Line
+	2050 2100 2150 2100
+Wire Wire Line
+	2150 2100 2150 2000
+Wire Wire Line
+	2150 2000 2300 2000
+Wire Wire Line
+	2900 1800 2900 1750
+Wire Wire Line
+	2900 850  3000 850 
+Wire Wire Line
+	3100 850  3000 850 
+Connection ~ 3000 850 
+Wire Wire Line
+	3000 750  3000 850 
+$Comp
+L power:VD #PWR?
+U 1 1 5D4B9A96
+P 3000 750
+AR Path="/5D4B9A96" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9A96" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 3000 600 50  0001 C CNN
+F 1 "VD" H 3017 923 50  0000 C CNN
+F 2 "" H 3000 750 50  0001 C CNN
+F 3 "" H 3000 750 50  0001 C CNN
+	1    3000 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2000 3000 1900
+Connection ~ 2300 2000
+$Comp
+L SamacSys_Parts:NTMFS5C604NLT1G Q?
+U 1 1 5D4B9AA5
+P 2900 2100
+AR Path="/5D4B9AA5" Ref="Q?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9AA5" Ref="Q2"  Part="1" 
+F 0 "Q2" V 3650 1800 50  0000 R CNN
+F 1 "NTMFS5C604NLT1G" H 3550 1750 50  0000 R CNN
+F 2 "Import Mouser:DFN5_5X6(SO-8FL)_CASE-488AA_ISSUE_M-1" H 3650 2200 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/NTMFS5C604NLT1G.pdf" H 3650 2100 50  0001 L CNN
+F 4 "Power MOSFET" H 3650 2000 50  0001 L CNN "Description"
+F 5 "" H 3650 1900 50  0001 L CNN "Height"
+F 6 "863-NTMFS5C604NLT1G" H 3650 1800 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NTMFS5C604NLT1G" H 3650 1700 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 3650 1600 50  0001 L CNN "Manufacturer_Name"
+F 9 "NTMFS5C604NLT1G" H 3650 1500 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2900 2100
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3100 2100 3000 2100
+Wire Wire Line
+	2900 2100 3000 2100
+Connection ~ 3000 2100
+Wire Wire Line
+	3000 2000 3000 2100
+Connection ~ 3000 2000
+$Comp
+L power:VSS #PWR?
+U 1 1 5D4B9AB0
+P 3000 3100
+AR Path="/5D4B9AB0" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9AB0" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 3000 2950 50  0001 C CNN
+F 1 "VSS" H 3018 3273 50  0000 C CNN
+F 2 "" H 3000 3100 50  0001 C CNN
+F 3 "" H 3000 3100 50  0001 C CNN
+	1    3000 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 3000 2700 3000
+Wire Wire Line
+	2700 3000 2700 2600
+Wire Wire Line
+	3000 3000 3000 3100
+$Comp
+L power:VAA #PWR?
+U 1 1 5D4B9ABA
+P 3500 1900
+AR Path="/5D4B9ABA" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9ABA" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 3500 1750 50  0001 C CNN
+F 1 "VAA" H 3517 2073 50  0000 C CNN
+F 2 "" H 3500 1900 50  0001 C CNN
+F 3 "" H 3500 1900 50  0001 C CNN
+	1    3500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1900 3500 2000
+Wire Wire Line
+	3500 2000 3550 2000
+Wire Wire Line
+	3500 2000 3500 2100
+Wire Wire Line
+	3500 2100 3550 2100
+Connection ~ 3500 2000
+$Comp
+L Device:C C?
+U 1 1 5D4B9AC5
+P 3700 2500
+AR Path="/5D4B9AC5" Ref="C?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9AC5" Ref="C10"  Part="1" 
+F 0 "C10" V 3550 2500 50  0000 C CNN
+F 1 "2u2" V 3850 2500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3738 2350 50  0001 C CNN
+F 3 "~" H 3700 2500 50  0001 C CNN
+	1    3700 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Current:AD8417 U?
+U 1 1 5D4B9ACB
+P 3950 1900
+AR Path="/5D4B9ACB" Ref="U?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9ACB" Ref="U2"  Part="1" 
+F 0 "U2" H 4300 1550 50  0000 C CNN
+F 1 "AD8417" H 4400 1650 50  0000 C CNN
+F 2 "" H 4000 1550 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8417.pdf" H 4600 1200 50  0001 C CNN
+	1    3950 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2500 3500 2500
+Wire Wire Line
+	3500 2500 3500 2100
+Connection ~ 3500 2100
+Wire Wire Line
+	3850 2500 3950 2500
+Wire Wire Line
+	4550 2500 4550 2000
+Wire Wire Line
+	4550 2000 4350 2000
+$Comp
+L Device:R_Shunt R?
+U 1 1 5D4B9AD9
+P 3950 1350
+AR Path="/5D4B9AD9" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9AD9" Ref="R12"  Part="1" 
+F 0 "R12" V 3725 1350 50  0000 C CNN
+F 1 "R0005" V 3816 1350 50  0000 C CNN
+F 2 "" V 3880 1350 50  0001 C CNN
+F 3 "~" H 3950 1350 50  0001 C CNN
+	1    3950 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 1500 3750 1500
+Wire Wire Line
+	4050 1500 4150 1500
+Wire Wire Line
+	3000 2000 3400 2000
+Wire Wire Line
+	3400 2000 3400 1350
+Wire Wire Line
+	3750 1350 3750 1500
+Connection ~ 3750 1350
+Connection ~ 3750 1500
+Wire Wire Line
+	4150 1350 4150 1500
+Connection ~ 4150 1500
+Wire Wire Line
+	750  2550 900  2550
+Wire Wire Line
+	900  2500 900  2550
+Connection ~ 900  2550
+Wire Wire Line
+	900  2550 1000 2550
+Wire Wire Line
+	1000 2200 900  2200
+Connection ~ 900  2200
+Wire Wire Line
+	2300 2000 3000 2000
+Wire Wire Line
+	2050 2400 2250 2400
+Wire Wire Line
+	2050 1800 2250 1800
+Wire Wire Line
+	2550 1800 2650 1800
+Wire Wire Line
+	3400 1350 3750 1350
+Wire Wire Line
+	3950 2300 3950 2500
+Connection ~ 3950 2500
+Wire Wire Line
+	3950 2500 4550 2500
+Wire Wire Line
+	4400 1900 4350 1900
+Wire Wire Line
+	900  1900 1000 1900
+Wire Wire Line
+	900  1800 1000 1800
+$Comp
+L Device:R R?
+U 1 1 5D58195B
+P 7300 1900
+AR Path="/5D58195B" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D58195B" Ref="R15"  Part="1" 
+F 0 "R15" H 7370 1946 50  0000 L CNN
+F 1 "39k" H 7370 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7230 1900 50  0001 C CNN
+F 3 "~" H 7300 1900 50  0001 C CNN
+	1    7300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D581CB4
+P 7300 2350
+AR Path="/5D581CB4" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D581CB4" Ref="R16"  Part="1" 
+F 0 "R16" H 7370 2396 50  0000 L CNN
+F 1 "2k2" H 7370 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7230 2350 50  0001 C CNN
+F 3 "~" H 7300 2350 50  0001 C CNN
+	1    7300 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7150 1750 0    50   Input ~ 0
+SH1
+Wire Wire Line
+	7150 1750 7300 1750
+Wire Wire Line
+	7300 2050 7300 2150
+$Comp
+L power:VSS #PWR?
+U 1 1 5D583E23
+P 7300 2600
+AR Path="/5D583E23" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D583E23" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 7300 2450 50  0001 C CNN
+F 1 "VSS" H 7318 2773 50  0000 C CNN
+F 2 "" H 7300 2600 50  0001 C CNN
+F 3 "" H 7300 2600 50  0001 C CNN
+	1    7300 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7300 2600 7300 2500
+Text GLabel 7550 1750 1    50   Output ~ 0
+SENS_1
+Wire Wire Line
+	7550 1750 7550 2150
+Wire Wire Line
+	7550 2150 7300 2150
+Connection ~ 7300 2150
+Wire Wire Line
+	7300 2150 7300 2200
+Text GLabel 2900 1900 0    50   Output ~ 0
+SH1
+Wire Wire Line
+	2900 1900 3000 1900
+Connection ~ 3000 1900
+Wire Wire Line
+	3000 1900 3000 1750
+$Comp
+L Connector:TestPoint_Probe TP1
+U 1 1 5D587D15
+P 3100 1800
+F 0 "TP1" H 3200 1750 50  0000 L CNN
+F 1 "Probe" V 3253 1810 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3300 1800 50  0001 C CNN
+F 3 "~" H 3300 1800 50  0001 C CNN
+	1    3100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1800 3100 1900
+Wire Wire Line
+	3100 1900 3000 1900
+Wire Wire Line
+	4150 1350 4250 1350
+Connection ~ 4150 1350
+$Comp
+L Device:C C?
+U 1 1 5D4B9A82
+P 2300 2150
+AR Path="/5D4B9A82" Ref="C?"  Part="1" 
+AR Path="/5D4A7FA5/5D4B9A82" Ref="C7"  Part="1" 
+F 0 "C7" H 2185 2104 50  0000 R CNN
+F 1 "470n" H 2185 2195 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2338 2000 50  0001 C CNN
+F 3 "~" H 2300 2150 50  0001 C CNN
+	1    2300 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D58D147
+P 7900 2100
+AR Path="/5D58D147" Ref="C?"  Part="1" 
+AR Path="/5D4A7FA5/5D58D147" Ref="C13"  Part="1" 
+F 0 "C13" V 7750 2050 50  0000 C CNN
+F 1 "4n7" V 7750 2200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7938 1950 50  0001 C CNN
+F 3 "~" H 7900 2100 50  0001 C CNN
+	1    7900 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D58D6F7
+P 8150 2100
+AR Path="/5D58D6F7" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D58D6F7" Ref="R21"  Part="1" 
+F 0 "R21" V 8250 2100 50  0000 L CNN
+F 1 "100R" V 8250 1850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8080 2100 50  0001 C CNN
+F 3 "~" H 8150 2100 50  0001 C CNN
+	1    8150 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 1800 0    50   Output ~ 0
+C1
+Wire Wire Line
+	7900 1800 7900 1950
+Wire Wire Line
+	7900 1950 8150 1950
+Connection ~ 7900 1950
+Wire Wire Line
+	8150 2250 8150 2400
+$Comp
+L power:VSS #PWR?
+U 1 1 5D591092
+P 7900 2500
+AR Path="/5D591092" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D591092" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 7900 2350 50  0001 C CNN
+F 1 "VSS" H 7918 2673 50  0000 C CNN
+F 2 "" H 7900 2500 50  0001 C CNN
+F 3 "" H 7900 2500 50  0001 C CNN
+	1    7900 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:NTMFS5C604NLT1G Q?
+U 1 1 5D62DE1A
+P 3800 3050
+AR Path="/5D62DE1A" Ref="Q?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE1A" Ref="Q5"  Part="1" 
+F 0 "Q5" V 4300 2750 50  0000 R CNN
+F 1 "NTMFS5C604NLT1G" H 4250 2700 50  0000 R CNN
+F 2 "Import Mouser:DFN5_5X6(SO-8FL)_CASE-488AA_ISSUE_M-1" H 4550 3150 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/NTMFS5C604NLT1G.pdf" H 4550 3050 50  0001 L CNN
+F 4 "Power MOSFET" H 4550 2950 50  0001 L CNN "Description"
+F 5 "" H 4550 2850 50  0001 L CNN "Height"
+F 6 "863-NTMFS5C604NLT1G" H 4550 2750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NTMFS5C604NLT1G" H 4550 2650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 4550 2550 50  0001 L CNN "Manufacturer_Name"
+F 9 "NTMFS5C604NLT1G" H 4550 2450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3800 3050
+	0    -1   1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:LM5113SDE_NOPB IC?
+U 1 1 5D62DE26
+P 1900 4000
+AR Path="/5D62DE26" Ref="IC?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE26" Ref="IC3"  Part="1" 
+F 0 "IC3" H 2150 4250 50  0000 C CNN
+F 1 "LM5113SDE_NOPB" H 2650 4250 50  0000 C CNN
+F 2 "Import Mouser:SON80P400X400X80-11N" H 2750 4100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/lm5113" H 2750 4000 50  0001 L CNN
+F 4 "Texas Instruments LM5113SDE/NOPB, Dual MOSFET Power Driver 1.2 A, 5 A Half Bridge, 4.5  5.5 V, Non-Inverting" H 2750 3900 50  0001 L CNN "Description"
+F 5 "0.8" H 2750 3800 50  0001 L CNN "Height"
+F 6 "926-LM5113SDE/NOPB" H 2750 3700 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=926-LM5113SDE%2FNOPB" H 2750 3600 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 2750 3500 50  0001 L CNN "Manufacturer_Name"
+F 9 "LM5113SDE/NOPB" H 2750 3400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D62DE2C
+P 1650 4350
+AR Path="/5D62DE2C" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE2C" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 1650 4200 50  0001 C CNN
+F 1 "+5V" H 1600 4500 50  0000 C CNN
+F 2 "" H 1650 4350 50  0001 C CNN
+F 3 "" H 1650 4350 50  0001 C CNN
+	1    1650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D62DE32
+P 1800 4550
+AR Path="/5D62DE32" Ref="C?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE32" Ref="C6"  Part="1" 
+F 0 "C6" H 1685 4504 50  0000 R CNN
+F 1 "2u2" H 1685 4595 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1838 4400 50  0001 C CNN
+F 3 "~" H 1800 4550 50  0001 C CNN
+	1    1800 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 4350 1650 4400
+Wire Wire Line
+	1650 4400 1800 4400
+$Comp
+L power:VSS #PWR?
+U 1 1 5D62DE3A
+P 1650 4750
+AR Path="/5D62DE3A" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE3A" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 1650 4600 50  0001 C CNN
+F 1 "VSS" H 1668 4923 50  0000 C CNN
+F 2 "" H 1650 4750 50  0001 C CNN
+F 3 "" H 1650 4750 50  0001 C CNN
+	1    1650 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D62DE40
+P 3200 4000
+AR Path="/5D62DE40" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE40" Ref="R10"  Part="1" 
+F 0 "R10" V 2993 4000 50  0000 C CNN
+F 1 "3R9" V 3084 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 4000 50  0001 C CNN
+F 3 "~" H 3200 4000 50  0001 C CNN
+	1    3200 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D62DE46
+P 3200 4600
+AR Path="/5D62DE46" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE46" Ref="R11"  Part="1" 
+F 0 "R11" V 3300 4450 50  0000 C CNN
+F 1 "3R9" V 3300 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 4600 50  0001 C CNN
+F 3 "~" H 3200 4600 50  0001 C CNN
+	1    3200 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 4400 3050 4400
+Wire Wire Line
+	3050 4400 3050 4500
+Wire Wire Line
+	3050 4500 3200 4500
+Wire Wire Line
+	2950 4300 3050 4300
+Wire Wire Line
+	3050 4300 3050 4200
+Wire Wire Line
+	3050 4200 3200 4200
+Wire Wire Line
+	3800 4000 3800 3950
+Wire Wire Line
+	3800 3050 3900 3050
+Wire Wire Line
+	4000 3050 3900 3050
+Connection ~ 3900 3050
+Wire Wire Line
+	3900 2950 3900 3050
+$Comp
+L power:VD #PWR?
+U 1 1 5D62DE57
+P 3900 2950
+AR Path="/5D62DE57" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE57" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 3900 2800 50  0001 C CNN
+F 1 "VD" H 3917 3123 50  0000 C CNN
+F 2 "" H 3900 2950 50  0001 C CNN
+F 3 "" H 3900 2950 50  0001 C CNN
+	1    3900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4200 3900 4100
+Connection ~ 3200 4200
+$Comp
+L SamacSys_Parts:NTMFS5C604NLT1G Q?
+U 1 1 5D62DE65
+P 3800 4300
+AR Path="/5D62DE65" Ref="Q?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE65" Ref="Q6"  Part="1" 
+F 0 "Q6" V 4550 4000 50  0000 R CNN
+F 1 "NTMFS5C604NLT1G" H 4450 3950 50  0000 R CNN
+F 2 "Import Mouser:DFN5_5X6(SO-8FL)_CASE-488AA_ISSUE_M-1" H 4550 4400 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/NTMFS5C604NLT1G.pdf" H 4550 4300 50  0001 L CNN
+F 4 "Power MOSFET" H 4550 4200 50  0001 L CNN "Description"
+F 5 "" H 4550 4100 50  0001 L CNN "Height"
+F 6 "863-NTMFS5C604NLT1G" H 4550 4000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NTMFS5C604NLT1G" H 4550 3900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 4550 3800 50  0001 L CNN "Manufacturer_Name"
+F 9 "NTMFS5C604NLT1G" H 4550 3700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3800 4300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4000 4300 3900 4300
+Wire Wire Line
+	3800 4300 3900 4300
+Connection ~ 3900 4300
+Wire Wire Line
+	3900 4200 3900 4300
+Connection ~ 3900 4200
+$Comp
+L power:VSS #PWR?
+U 1 1 5D62DE70
+P 3900 5300
+AR Path="/5D62DE70" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE70" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 3900 5150 50  0001 C CNN
+F 1 "VSS" H 3918 5473 50  0000 C CNN
+F 2 "" H 3900 5300 50  0001 C CNN
+F 3 "" H 3900 5300 50  0001 C CNN
+	1    3900 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 5200 3600 5200
+Wire Wire Line
+	3600 5200 3600 4800
+Wire Wire Line
+	3900 5200 3900 5300
+$Comp
+L power:VAA #PWR?
+U 1 1 5D62DE79
+P 4400 4100
+AR Path="/5D62DE79" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE79" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 4400 3950 50  0001 C CNN
+F 1 "VAA" H 4417 4273 50  0000 C CNN
+F 2 "" H 4400 4100 50  0001 C CNN
+F 3 "" H 4400 4100 50  0001 C CNN
+	1    4400 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4100 4400 4200
+Wire Wire Line
+	4400 4200 4450 4200
+Wire Wire Line
+	4400 4200 4400 4300
+Wire Wire Line
+	4400 4300 4450 4300
+Connection ~ 4400 4200
+$Comp
+L Device:C C?
+U 1 1 5D62DE84
+P 4600 4700
+AR Path="/5D62DE84" Ref="C?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE84" Ref="C12"  Part="1" 
+F 0 "C12" V 4450 4700 50  0000 C CNN
+F 1 "2u2" V 4750 4700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4638 4550 50  0001 C CNN
+F 3 "~" H 4600 4700 50  0001 C CNN
+	1    4600 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Current:AD8417 U?
+U 1 1 5D62DE8A
+P 4850 4100
+AR Path="/5D62DE8A" Ref="U?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE8A" Ref="U4"  Part="1" 
+F 0 "U4" H 5200 3750 50  0000 C CNN
+F 1 "AD8417" H 5300 3850 50  0000 C CNN
+F 2 "" H 4900 3750 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8417.pdf" H 5500 3400 50  0001 C CNN
+	1    4850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4700 4400 4700
+Wire Wire Line
+	4400 4700 4400 4300
+Connection ~ 4400 4300
+Wire Wire Line
+	4750 4700 4850 4700
+Wire Wire Line
+	5450 4700 5450 4200
+Wire Wire Line
+	5450 4200 5250 4200
+$Comp
+L Device:R_Shunt R?
+U 1 1 5D62DE96
+P 4850 3550
+AR Path="/5D62DE96" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DE96" Ref="R14"  Part="1" 
+F 0 "R14" V 4625 3550 50  0000 C CNN
+F 1 "R0005" V 4716 3550 50  0000 C CNN
+F 2 "" V 4780 3550 50  0001 C CNN
+F 3 "~" H 4850 3550 50  0001 C CNN
+	1    4850 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 3700 4650 3700
+Wire Wire Line
+	4950 3700 5050 3700
+Wire Wire Line
+	3900 4200 4300 4200
+Wire Wire Line
+	4300 4200 4300 3550
+Wire Wire Line
+	4650 3550 4650 3700
+Connection ~ 4650 3550
+Connection ~ 4650 3700
+Wire Wire Line
+	5050 3550 5050 3700
+Connection ~ 5050 3700
+Wire Wire Line
+	1650 4750 1800 4750
+Wire Wire Line
+	1800 4700 1800 4750
+Connection ~ 1800 4750
+Wire Wire Line
+	1800 4750 1900 4750
+Wire Wire Line
+	1900 4400 1800 4400
+Connection ~ 1800 4400
+Wire Wire Line
+	3200 4200 3900 4200
+Wire Wire Line
+	2950 4600 3050 4600
+Wire Wire Line
+	2950 4000 3050 4000
+Wire Wire Line
+	3350 4000 3450 4000
+Wire Wire Line
+	4300 3550 4650 3550
+Wire Wire Line
+	4850 4500 4850 4700
+Connection ~ 4850 4700
+Wire Wire Line
+	4850 4700 5450 4700
+Wire Wire Line
+	1800 4100 1900 4100
+Wire Wire Line
+	1800 4000 1900 4000
+$Comp
+L Device:R R?
+U 1 1 5D62DEBB
+P 7400 3800
+AR Path="/5D62DEBB" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DEBB" Ref="R17"  Part="1" 
+F 0 "R17" H 7470 3846 50  0000 L CNN
+F 1 "39k" H 7470 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7330 3800 50  0001 C CNN
+F 3 "~" H 7400 3800 50  0001 C CNN
+	1    7400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D62DEC1
+P 7400 4250
+AR Path="/5D62DEC1" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DEC1" Ref="R18"  Part="1" 
+F 0 "R18" H 7470 4296 50  0000 L CNN
+F 1 "2k2" H 7470 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7330 4250 50  0001 C CNN
+F 3 "~" H 7400 4250 50  0001 C CNN
+	1    7400 4250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 3650 0    50   Input ~ 0
+SH2
+Wire Wire Line
+	7250 3650 7400 3650
+Wire Wire Line
+	7400 3950 7400 4050
+$Comp
+L power:VSS #PWR?
+U 1 1 5D62DECA
+P 7400 4500
+AR Path="/5D62DECA" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DECA" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 7400 4350 50  0001 C CNN
+F 1 "VSS" H 7418 4673 50  0000 C CNN
+F 2 "" H 7400 4500 50  0001 C CNN
+F 3 "" H 7400 4500 50  0001 C CNN
+	1    7400 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7400 4500 7400 4400
+Text GLabel 7650 3650 1    50   Output ~ 0
+SENS_2
+Wire Wire Line
+	7650 3650 7650 4050
+Wire Wire Line
+	7650 4050 7400 4050
+Connection ~ 7400 4050
+Wire Wire Line
+	7400 4050 7400 4100
+Text GLabel 3800 4100 0    50   Output ~ 0
+SH2
+Wire Wire Line
+	3800 4100 3900 4100
+Connection ~ 3900 4100
+Wire Wire Line
+	3900 4100 3900 3950
+$Comp
+L Connector:TestPoint_Probe TP3
+U 1 1 5D62DEDA
+P 4000 4000
+F 0 "TP3" H 4100 3950 50  0000 L CNN
+F 1 "Probe" V 4153 4010 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 4200 4000 50  0001 C CNN
+F 3 "~" H 4200 4000 50  0001 C CNN
+	1    4000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4000 4000 4100
+Wire Wire Line
+	4000 4100 3900 4100
+Wire Wire Line
+	5050 3550 5150 3550
+Connection ~ 5050 3550
+$Comp
+L Device:C C?
+U 1 1 5D62DEEA
+P 3200 4350
+AR Path="/5D62DEEA" Ref="C?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DEEA" Ref="C9"  Part="1" 
+F 0 "C9" H 3085 4304 50  0000 R CNN
+F 1 "470n" H 3085 4395 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3238 4200 50  0001 C CNN
+F 3 "~" H 3200 4350 50  0001 C CNN
+	1    3200 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D62DEF0
+P 8000 4000
+AR Path="/5D62DEF0" Ref="C?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DEF0" Ref="C14"  Part="1" 
+F 0 "C14" V 7850 3950 50  0000 C CNN
+F 1 "4n7" V 7850 4100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8038 3850 50  0001 C CNN
+F 3 "~" H 8000 4000 50  0001 C CNN
+	1    8000 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D62DEF6
+P 8250 4000
+AR Path="/5D62DEF6" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DEF6" Ref="R22"  Part="1" 
+F 0 "R22" V 8350 4000 50  0000 L CNN
+F 1 "100R" V 8350 3750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 4000 50  0001 C CNN
+F 3 "~" H 8250 4000 50  0001 C CNN
+	1    8250 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 3700 0    50   Output ~ 0
+C2
+Wire Wire Line
+	8000 3700 8000 3850
+Wire Wire Line
+	8000 3850 8250 3850
+Connection ~ 8000 3850
+Wire Wire Line
+	8250 4150 8250 4300
+$Comp
+L power:VSS #PWR?
+U 1 1 5D62DF03
+P 8000 4400
+AR Path="/5D62DF03" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D62DF03" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 8000 4250 50  0001 C CNN
+F 1 "VSS" H 8018 4573 50  0000 C CNN
+F 2 "" H 8000 4400 50  0001 C CNN
+F 3 "" H 8000 4400 50  0001 C CNN
+	1    8000 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:NTMFS5C604NLT1G Q?
+U 1 1 5D638C41
+P 3100 5350
+AR Path="/5D638C41" Ref="Q?"  Part="1" 
+AR Path="/5D4A7FA5/5D638C41" Ref="Q3"  Part="1" 
+F 0 "Q3" V 3600 5050 50  0000 R CNN
+F 1 "NTMFS5C604NLT1G" H 3550 5000 50  0000 R CNN
+F 2 "Import Mouser:DFN5_5X6(SO-8FL)_CASE-488AA_ISSUE_M-1" H 3850 5450 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/NTMFS5C604NLT1G.pdf" H 3850 5350 50  0001 L CNN
+F 4 "Power MOSFET" H 3850 5250 50  0001 L CNN "Description"
+F 5 "" H 3850 5150 50  0001 L CNN "Height"
+F 6 "863-NTMFS5C604NLT1G" H 3850 5050 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NTMFS5C604NLT1G" H 3850 4950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 3850 4850 50  0001 L CNN "Manufacturer_Name"
+F 9 "NTMFS5C604NLT1G" H 3850 4750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3100 5350
+	0    -1   1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:LM5113SDE_NOPB IC?
+U 1 1 5D638C4D
+P 1200 6300
+AR Path="/5D638C4D" Ref="IC?"  Part="1" 
+AR Path="/5D4A7FA5/5D638C4D" Ref="IC2"  Part="1" 
+F 0 "IC2" H 1450 6550 50  0000 C CNN
+F 1 "LM5113SDE_NOPB" H 1950 6550 50  0000 C CNN
+F 2 "Import Mouser:SON80P400X400X80-11N" H 2050 6400 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/lm5113" H 2050 6300 50  0001 L CNN
+F 4 "Texas Instruments LM5113SDE/NOPB, Dual MOSFET Power Driver 1.2 A, 5 A Half Bridge, 4.5  5.5 V, Non-Inverting" H 2050 6200 50  0001 L CNN "Description"
+F 5 "0.8" H 2050 6100 50  0001 L CNN "Height"
+F 6 "926-LM5113SDE/NOPB" H 2050 6000 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=926-LM5113SDE%2FNOPB" H 2050 5900 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Texas Instruments" H 2050 5800 50  0001 L CNN "Manufacturer_Name"
+F 9 "LM5113SDE/NOPB" H 2050 5700 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D638C53
+P 950 6650
+AR Path="/5D638C53" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D638C53" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 950 6500 50  0001 C CNN
+F 1 "+5V" H 900 6800 50  0000 C CNN
+F 2 "" H 950 6650 50  0001 C CNN
+F 3 "" H 950 6650 50  0001 C CNN
+	1    950  6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D638C59
+P 1100 6850
+AR Path="/5D638C59" Ref="C?"  Part="1" 
+AR Path="/5D4A7FA5/5D638C59" Ref="C5"  Part="1" 
+F 0 "C5" H 985 6804 50  0000 R CNN
+F 1 "2u2" H 985 6895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1138 6700 50  0001 C CNN
+F 3 "~" H 1100 6850 50  0001 C CNN
+	1    1100 6850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  6650 950  6700
+Wire Wire Line
+	950  6700 1100 6700
+$Comp
+L power:VSS #PWR?
+U 1 1 5D638C61
+P 950 7050
+AR Path="/5D638C61" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D638C61" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 950 6900 50  0001 C CNN
+F 1 "VSS" H 968 7223 50  0000 C CNN
+F 2 "" H 950 7050 50  0001 C CNN
+F 3 "" H 950 7050 50  0001 C CNN
+	1    950  7050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D638C67
+P 2450 6300
+AR Path="/5D638C67" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D638C67" Ref="R8"  Part="1" 
+F 0 "R8" V 2243 6300 50  0000 C CNN
+F 1 "3R9" V 2334 6300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 6300 50  0001 C CNN
+F 3 "~" H 2450 6300 50  0001 C CNN
+	1    2450 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D638C6D
+P 2500 6900
+AR Path="/5D638C6D" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D638C6D" Ref="R9"  Part="1" 
+F 0 "R9" V 2600 6750 50  0000 C CNN
+F 1 "3R9" V 2600 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2430 6900 50  0001 C CNN
+F 3 "~" H 2500 6900 50  0001 C CNN
+	1    2500 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 6700 2350 6700
+Wire Wire Line
+	2350 6700 2350 6800
+Wire Wire Line
+	2350 6800 2500 6800
+Wire Wire Line
+	2250 6600 2350 6600
+Wire Wire Line
+	2350 6600 2350 6500
+Wire Wire Line
+	2350 6500 2500 6500
+Wire Wire Line
+	3100 6300 3100 6250
+Wire Wire Line
+	3100 5350 3200 5350
+Wire Wire Line
+	3300 5350 3200 5350
+Connection ~ 3200 5350
+Wire Wire Line
+	3200 5250 3200 5350
+$Comp
+L power:VD #PWR?
+U 1 1 5D638C7E
+P 3200 5250
+AR Path="/5D638C7E" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D638C7E" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 3200 5100 50  0001 C CNN
+F 1 "VD" H 3217 5423 50  0000 C CNN
+F 2 "" H 3200 5250 50  0001 C CNN
+F 3 "" H 3200 5250 50  0001 C CNN
+	1    3200 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 6500 3200 6400
+Connection ~ 2500 6500
+$Comp
+L SamacSys_Parts:NTMFS5C604NLT1G Q?
+U 1 1 5D638C8C
+P 3100 6600
+AR Path="/5D638C8C" Ref="Q?"  Part="1" 
+AR Path="/5D4A7FA5/5D638C8C" Ref="Q4"  Part="1" 
+F 0 "Q4" V 3850 6300 50  0000 R CNN
+F 1 "NTMFS5C604NLT1G" H 3750 6250 50  0000 R CNN
+F 2 "Import Mouser:DFN5_5X6(SO-8FL)_CASE-488AA_ISSUE_M-1" H 3850 6700 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/NTMFS5C604NLT1G.pdf" H 3850 6600 50  0001 L CNN
+F 4 "Power MOSFET" H 3850 6500 50  0001 L CNN "Description"
+F 5 "" H 3850 6400 50  0001 L CNN "Height"
+F 6 "863-NTMFS5C604NLT1G" H 3850 6300 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NTMFS5C604NLT1G" H 3850 6200 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ON Semiconductor" H 3850 6100 50  0001 L CNN "Manufacturer_Name"
+F 9 "NTMFS5C604NLT1G" H 3850 6000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3100 6600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3300 6600 3200 6600
+Wire Wire Line
+	3100 6600 3200 6600
+Connection ~ 3200 6600
+Wire Wire Line
+	3200 6500 3200 6600
+Connection ~ 3200 6500
+$Comp
+L power:VSS #PWR?
+U 1 1 5D638C97
+P 3200 7600
+AR Path="/5D638C97" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D638C97" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 3200 7450 50  0001 C CNN
+F 1 "VSS" H 3218 7773 50  0000 C CNN
+F 2 "" H 3200 7600 50  0001 C CNN
+F 3 "" H 3200 7600 50  0001 C CNN
+	1    3200 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3100 7500 2900 7500
+Wire Wire Line
+	2900 7500 2900 7100
+Wire Wire Line
+	3200 7500 3200 7600
+$Comp
+L power:VAA #PWR?
+U 1 1 5D638CA0
+P 3700 6400
+AR Path="/5D638CA0" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D638CA0" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 3700 6250 50  0001 C CNN
+F 1 "VAA" H 3717 6573 50  0000 C CNN
+F 2 "" H 3700 6400 50  0001 C CNN
+F 3 "" H 3700 6400 50  0001 C CNN
+	1    3700 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6400 3700 6500
+Wire Wire Line
+	3700 6500 3750 6500
+Wire Wire Line
+	3700 6500 3700 6600
+Wire Wire Line
+	3700 6600 3750 6600
+Connection ~ 3700 6500
+$Comp
+L Device:C C?
+U 1 1 5D638CAB
+P 3900 7000
+AR Path="/5D638CAB" Ref="C?"  Part="1" 
+AR Path="/5D4A7FA5/5D638CAB" Ref="C11"  Part="1" 
+F 0 "C11" V 3750 7000 50  0000 C CNN
+F 1 "2u2" V 4050 7000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 6850 50  0001 C CNN
+F 3 "~" H 3900 7000 50  0001 C CNN
+	1    3900 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Amplifier_Current:AD8417 U?
+U 1 1 5D638CB1
+P 4150 6400
+AR Path="/5D638CB1" Ref="U?"  Part="1" 
+AR Path="/5D4A7FA5/5D638CB1" Ref="U3"  Part="1" 
+F 0 "U3" H 4500 6050 50  0000 C CNN
+F 1 "AD8417" H 4600 6150 50  0000 C CNN
+F 2 "" H 4200 6050 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8417.pdf" H 4800 5700 50  0001 C CNN
+	1    4150 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 7000 3700 7000
+Wire Wire Line
+	3700 7000 3700 6600
+Connection ~ 3700 6600
+Wire Wire Line
+	4050 7000 4150 7000
+Wire Wire Line
+	4750 7000 4750 6500
+Wire Wire Line
+	4750 6500 4550 6500
+$Comp
+L Device:R_Shunt R?
+U 1 1 5D638CBD
+P 4150 5850
+AR Path="/5D638CBD" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D638CBD" Ref="R13"  Part="1" 
+F 0 "R13" V 3925 5850 50  0000 C CNN
+F 1 "R0005" V 4016 5850 50  0000 C CNN
+F 2 "" V 4080 5850 50  0001 C CNN
+F 3 "~" H 4150 5850 50  0001 C CNN
+	1    4150 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 6000 3950 6000
+Wire Wire Line
+	4250 6000 4350 6000
+Wire Wire Line
+	3200 6500 3600 6500
+Wire Wire Line
+	3600 6500 3600 5850
+Wire Wire Line
+	3950 5850 3950 6000
+Connection ~ 3950 5850
+Connection ~ 3950 6000
+Wire Wire Line
+	4350 5850 4350 6000
+Connection ~ 4350 6000
+Wire Wire Line
+	950  7050 1100 7050
+Wire Wire Line
+	1100 7000 1100 7050
+Connection ~ 1100 7050
+Wire Wire Line
+	1100 7050 1200 7050
+Wire Wire Line
+	1200 6700 1100 6700
+Connection ~ 1100 6700
+Wire Wire Line
+	2500 6500 3200 6500
+Wire Wire Line
+	2250 6300 2300 6300
+Wire Wire Line
+	2600 6300 2750 6300
+Wire Wire Line
+	3600 5850 3950 5850
+Wire Wire Line
+	4150 6800 4150 7000
+Connection ~ 4150 7000
+Wire Wire Line
+	4150 7000 4750 7000
+Wire Wire Line
+	1100 6400 1200 6400
+Wire Wire Line
+	1100 6300 1200 6300
+$Comp
+L Device:R R?
+U 1 1 5D638CE2
+P 7450 5500
+AR Path="/5D638CE2" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D638CE2" Ref="R19"  Part="1" 
+F 0 "R19" H 7520 5546 50  0000 L CNN
+F 1 "39k" H 7520 5455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7380 5500 50  0001 C CNN
+F 3 "~" H 7450 5500 50  0001 C CNN
+	1    7450 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D638CE8
+P 7450 5950
+AR Path="/5D638CE8" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D638CE8" Ref="R20"  Part="1" 
+F 0 "R20" H 7520 5996 50  0000 L CNN
+F 1 "2k2" H 7520 5905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7380 5950 50  0001 C CNN
+F 3 "~" H 7450 5950 50  0001 C CNN
+	1    7450 5950
+	1    0    0    -1  
+$EndComp
+Text GLabel 7300 5350 0    50   Input ~ 0
+SH3
+Wire Wire Line
+	7300 5350 7450 5350
+Wire Wire Line
+	7450 5650 7450 5750
+$Comp
+L power:VSS #PWR?
+U 1 1 5D638CF1
+P 7450 6200
+AR Path="/5D638CF1" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D638CF1" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 7450 6050 50  0001 C CNN
+F 1 "VSS" H 7468 6373 50  0000 C CNN
+F 2 "" H 7450 6200 50  0001 C CNN
+F 3 "" H 7450 6200 50  0001 C CNN
+	1    7450 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7450 6200 7450 6100
+Text GLabel 7700 5350 1    50   Output ~ 0
+SENS_3
+Wire Wire Line
+	7700 5350 7700 5750
+Wire Wire Line
+	7700 5750 7450 5750
+Connection ~ 7450 5750
+Wire Wire Line
+	7450 5750 7450 5800
+Text GLabel 3100 6400 0    50   Output ~ 0
+SH3
+Wire Wire Line
+	3100 6400 3200 6400
+Connection ~ 3200 6400
+Wire Wire Line
+	3200 6400 3200 6250
+$Comp
+L Connector:TestPoint_Probe TP2
+U 1 1 5D638D01
+P 3300 6300
+F 0 "TP2" H 3400 6250 50  0000 L CNN
+F 1 "Probe" V 3453 6310 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3500 6300 50  0001 C CNN
+F 3 "~" H 3500 6300 50  0001 C CNN
+	1    3300 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 6300 3300 6400
+Wire Wire Line
+	3300 6400 3200 6400
+Wire Wire Line
+	4350 5850 4450 5850
+Connection ~ 4350 5850
+$Comp
+L Device:C C?
+U 1 1 5D638D11
+P 2500 6650
+AR Path="/5D638D11" Ref="C?"  Part="1" 
+AR Path="/5D4A7FA5/5D638D11" Ref="C8"  Part="1" 
+F 0 "C8" H 2385 6604 50  0000 R CNN
+F 1 "470n" H 2385 6695 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 6500 50  0001 C CNN
+F 3 "~" H 2500 6650 50  0001 C CNN
+	1    2500 6650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D638D17
+P 8050 5700
+AR Path="/5D638D17" Ref="C?"  Part="1" 
+AR Path="/5D4A7FA5/5D638D17" Ref="C15"  Part="1" 
+F 0 "C15" V 7900 5650 50  0000 C CNN
+F 1 "4n7" V 7900 5800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8088 5550 50  0001 C CNN
+F 3 "~" H 8050 5700 50  0001 C CNN
+	1    8050 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D638D1D
+P 8300 5700
+AR Path="/5D638D1D" Ref="R?"  Part="1" 
+AR Path="/5D4A7FA5/5D638D1D" Ref="R23"  Part="1" 
+F 0 "R23" V 8400 5700 50  0000 L CNN
+F 1 "100R" V 8400 5450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 5700 50  0001 C CNN
+F 3 "~" H 8300 5700 50  0001 C CNN
+	1    8300 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8050 5400 0    50   Output ~ 0
+C3
+Wire Wire Line
+	8050 5400 8050 5550
+Wire Wire Line
+	8050 5550 8300 5550
+Connection ~ 8050 5550
+Wire Wire Line
+	8300 5850 8300 6000
+$Comp
+L power:VSS #PWR?
+U 1 1 5D638D2A
+P 8050 6100
+AR Path="/5D638D2A" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D638D2A" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 8050 5950 50  0001 C CNN
+F 1 "VSS" H 8068 6273 50  0000 C CNN
+F 2 "" H 8050 6100 50  0001 C CNN
+F 3 "" H 8050 6100 50  0001 C CNN
+	1    8050 6100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 2400 2550 2400
+Wire Wire Line
+	2050 2500 2050 2600
+Wire Wire Line
+	2050 2600 2700 2600
+Connection ~ 2700 2600
+Wire Wire Line
+	2700 2600 2700 2400
+Wire Wire Line
+	2050 1900 2650 1900
+Wire Wire Line
+	2650 1900 2650 1800
+Connection ~ 2650 1800
+Wire Wire Line
+	2650 1800 2900 1800
+Wire Wire Line
+	3600 4600 3350 4600
+Wire Wire Line
+	2950 4700 2950 4800
+Wire Wire Line
+	2950 4800 3600 4800
+Connection ~ 3600 4800
+Wire Wire Line
+	3600 4800 3600 4600
+Wire Wire Line
+	2950 4100 3450 4100
+Wire Wire Line
+	3450 4100 3450 4000
+Connection ~ 3450 4000
+Wire Wire Line
+	3450 4000 3800 4000
+Wire Wire Line
+	2250 6900 2350 6900
+Wire Wire Line
+	2250 7000 2250 7100
+Wire Wire Line
+	2250 7100 2900 7100
+Connection ~ 2900 7100
+Wire Wire Line
+	2900 7100 2900 6900
+Wire Wire Line
+	2650 6900 2900 6900
+Wire Wire Line
+	2250 6400 2750 6400
+Wire Wire Line
+	2750 6400 2750 6300
+Connection ~ 2750 6300
+Wire Wire Line
+	2750 6300 3100 6300
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 5D5AB72B
+P 4650 5850
+F 0 "J3" H 4622 5782 50  0000 R CNN
+F 1 "Output W" H 4622 5873 50  0000 R CNN
+F 2 "VESC:Pad_Output" H 4650 5850 50  0001 C CNN
+F 3 "~" H 4650 5850 50  0001 C CNN
+	1    4650 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 5D5AD26C
+P 4450 1350
+F 0 "J2" H 4422 1282 50  0000 R CNN
+F 1 "Output U" H 4422 1373 50  0000 R CNN
+F 2 "VESC:Pad_Output" H 4450 1350 50  0001 C CNN
+F 3 "~" H 4450 1350 50  0001 C CNN
+	1    4450 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J4
+U 1 1 5D5AC87F
+P 5350 3550
+F 0 "J4" H 5322 3482 50  0000 R CNN
+F 1 "Output V" H 5322 3573 50  0000 R CNN
+F 2 "VESC:Pad_Output" H 5350 3550 50  0001 C CNN
+F 3 "~" H 5350 3550 50  0001 C CNN
+	1    5350 3550
+	-1   0    0    1   
+$EndComp
+Text HLabel 900  1800 0    50   Input ~ 0
+HI1
+Text HLabel 900  1900 0    50   Input ~ 0
+LI1
+Text HLabel 1800 4000 0    50   Input ~ 0
+HI2
+Text HLabel 1100 6300 0    50   Input ~ 0
+HI3
+Text HLabel 1800 4100 0    50   Input ~ 0
+LI2
+Text HLabel 1100 6400 0    50   Input ~ 0
+LI3
+$Comp
+L power:VSS #PWR?
+U 1 1 5D637C6E
+P 4850 4700
+AR Path="/5D637C6E" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D637C6E" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 4850 4550 50  0001 C CNN
+F 1 "VSS" H 4868 4873 50  0000 C CNN
+F 2 "" H 4850 4700 50  0001 C CNN
+F 3 "" H 4850 4700 50  0001 C CNN
+	1    4850 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D63805F
+P 4150 7000
+AR Path="/5D63805F" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D63805F" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 4150 6850 50  0001 C CNN
+F 1 "VSS" H 4168 7173 50  0000 C CNN
+F 2 "" H 4150 7000 50  0001 C CNN
+F 3 "" H 4150 7000 50  0001 C CNN
+	1    4150 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D638593
+P 3950 2500
+AR Path="/5D638593" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A7FA5/5D638593" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 3950 2350 50  0001 C CNN
+F 1 "VSS" H 3968 2673 50  0000 C CNN
+F 2 "" H 3950 2500 50  0001 C CNN
+F 3 "" H 3950 2500 50  0001 C CNN
+	1    3950 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 4100 5350 4100
+Wire Wire Line
+	4550 6400 4650 6400
+Wire Wire Line
+	8000 4150 8000 4400
+Wire Wire Line
+	8050 5850 8050 6100
+Wire Wire Line
+	7900 2250 7900 2500
+Text GLabel 8450 4300 2    50   Input ~ 0
+I2
+Text GLabel 8400 2400 2    50   Input ~ 0
+I1
+Text GLabel 8500 6000 2    50   Input ~ 0
+I3
+Wire Wire Line
+	8300 6000 8500 6000
+Wire Wire Line
+	8250 4300 8450 4300
+Wire Wire Line
+	8400 2400 8150 2400
+Text GLabel 4400 1900 2    50   Output ~ 0
+I1
+Text GLabel 5350 4100 2    50   Output ~ 0
+I2
+Text GLabel 4650 6400 2    50   Output ~ 0
+I3
+$EndSCHEMATC

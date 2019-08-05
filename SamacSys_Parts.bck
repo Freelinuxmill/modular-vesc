@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM5113SDE_NOPB
+D Texas Instruments LM5113SDE/NOPB, Dual MOSFET Power Driver 1.2 A, 5 A Half Bridge, 4.5  5.5 V, Non-Inverting
+F http://www.ti.com/lit/gpn/lm5113
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP NTMFS5C604NLT1G
+D Power MOSFET
+F https://componentsearchengine.com/Datasheets/1/NTMFS5C604NLT1G.pdf
+$ENDCMP
+#
+#End Doc Library

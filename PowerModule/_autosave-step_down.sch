@@ -1,0 +1,128 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Switching:LMR16006YQ U?
+U 1 1 5D4BC5D2
+P 3150 2200
+F 0 "U?" H 3150 2667 50  0000 C CNN
+F 1 "LMR16006YDDCT" H 3150 2576 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3150 1700 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf" H 2750 2650 50  0001 C CNN
+	1    3150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D4BD745
+P 2350 1750
+F 0 "#PWR?" H 2350 1600 50  0001 C CNN
+F 1 "VD" H 2367 1923 50  0000 C CNN
+F 2 "" H 2350 1750 50  0001 C CNN
+F 3 "" H 2350 1750 50  0001 C CNN
+	1    2350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D4BDB6E
+P 3150 2700
+F 0 "#PWR?" H 3150 2550 50  0001 C CNN
+F 1 "VSS" H 3168 2873 50  0000 C CNN
+F 2 "" H 3150 2700 50  0001 C CNN
+F 3 "" H 3150 2700 50  0001 C CNN
+	1    3150 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D4BDF3E
+P 2150 2350
+F 0 "C?" H 2265 2396 50  0000 L CNN
+F 1 "C" H 2265 2305 50  0000 L CNN
+F 2 "" H 2188 2200 50  0001 C CNN
+F 3 "~" H 2150 2350 50  0001 C CNN
+	1    2150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D4BE42C
+P 2500 1000
+F 0 "R?" H 2570 1046 50  0000 L CNN
+F 1 "R" H 2570 955 50  0000 L CNN
+F 2 "" V 2430 1000 50  0001 C CNN
+F 3 "~" H 2500 1000 50  0001 C CNN
+	1    2500 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1750 2350 1900
+Wire Wire Line
+	2150 2200 2150 1900
+Wire Wire Line
+	2150 1900 2350 1900
+Wire Wire Line
+	2150 2500 2150 2700
+Wire Wire Line
+	2150 2700 3150 2700
+Wire Wire Line
+	3150 2700 3150 2600
+Connection ~ 3150 2700
+Wire Wire Line
+	2650 2000 2600 2000
+Wire Wire Line
+	2600 1900 2600 2000
+Connection ~ 2350 1900
+$Comp
+L Device:R R?
+U 1 1 5D4C184B
+P 2350 2050
+F 0 "R?" H 2420 2096 50  0000 L CNN
+F 1 "R" H 2420 2005 50  0000 L CNN
+F 2 "" V 2280 2050 50  0001 C CNN
+F 3 "~" H 2350 2050 50  0001 C CNN
+	1    2350 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1900 2600 1900
+Wire Wire Line
+	2350 2200 2650 2200
+$Comp
+L Device:R R?
+U 1 1 5D4C2353
+P 3800 2550
+F 0 "R?" H 3870 2596 50  0000 L CNN
+F 1 "R" H 3870 2505 50  0000 L CNN
+F 2 "" V 3730 2550 50  0001 C CNN
+F 3 "~" H 3800 2550 50  0001 C CNN
+	1    3800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D4C2DA1
+P 3800 2800
+F 0 "#PWR?" H 3800 2650 50  0001 C CNN
+F 1 "VSS" H 3818 2973 50  0000 C CNN
+F 2 "" H 3800 2800 50  0001 C CNN
+F 3 "" H 3800 2800 50  0001 C CNN
+	1    3800 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2700 3800 2800
+$EndSCHEMATC

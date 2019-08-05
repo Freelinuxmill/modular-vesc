@@ -1,0 +1,2369 @@
+EESchema Schematic File Version 4
+LIBS:PowerModule-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5D55CE7C
+P 2300 1350
+AR Path="/5D4A7E61/5D55CE7C" Ref="C?"  Part="1" 
+AR Path="/5D55CE7C" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CE7C" Ref="C16"  Part="1" 
+F 0 "C16" H 2415 1396 50  0000 L CNN
+F 1 "C" H 2415 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 1200 50  0001 C CNN
+F 3 "~" H 2300 1350 50  0001 C CNN
+	1    2300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CE82
+P 2300 1200
+AR Path="/5D4A7E61/5D55CE82" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CE82" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CE82" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 2300 1050 50  0001 C CNN
+F 1 "VD" H 2317 1373 50  0000 C CNN
+F 2 "" H 2300 1200 50  0001 C CNN
+F 3 "" H 2300 1200 50  0001 C CNN
+	1    2300 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CE88
+P 2300 1500
+AR Path="/5D4A7E61/5D55CE88" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CE88" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CE88" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 2300 1350 50  0001 C CNN
+F 1 "VSS" H 2318 1673 50  0000 C CNN
+F 2 "" H 2300 1500 50  0001 C CNN
+F 3 "" H 2300 1500 50  0001 C CNN
+	1    2300 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CE8E
+P 2600 1350
+AR Path="/5D4A7E61/5D55CE8E" Ref="C?"  Part="1" 
+AR Path="/5D55CE8E" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CE8E" Ref="C23"  Part="1" 
+F 0 "C23" H 2715 1396 50  0000 L CNN
+F 1 "C" H 2715 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 1200 50  0001 C CNN
+F 3 "~" H 2600 1350 50  0001 C CNN
+	1    2600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CE94
+P 2600 1200
+AR Path="/5D4A7E61/5D55CE94" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CE94" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CE94" Ref="#PWR050"  Part="1" 
+F 0 "#PWR050" H 2600 1050 50  0001 C CNN
+F 1 "VD" H 2617 1373 50  0000 C CNN
+F 2 "" H 2600 1200 50  0001 C CNN
+F 3 "" H 2600 1200 50  0001 C CNN
+	1    2600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CE9A
+P 2600 1500
+AR Path="/5D4A7E61/5D55CE9A" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CE9A" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CE9A" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 2600 1350 50  0001 C CNN
+F 1 "VSS" H 2618 1673 50  0000 C CNN
+F 2 "" H 2600 1500 50  0001 C CNN
+F 3 "" H 2600 1500 50  0001 C CNN
+	1    2600 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CEA0
+P 2900 1350
+AR Path="/5D4A7E61/5D55CEA0" Ref="C?"  Part="1" 
+AR Path="/5D55CEA0" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CEA0" Ref="C30"  Part="1" 
+F 0 "C30" H 3015 1396 50  0000 L CNN
+F 1 "C" H 3015 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 1200 50  0001 C CNN
+F 3 "~" H 2900 1350 50  0001 C CNN
+	1    2900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CEA6
+P 2900 1200
+AR Path="/5D4A7E61/5D55CEA6" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CEA6" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CEA6" Ref="#PWR064"  Part="1" 
+F 0 "#PWR064" H 2900 1050 50  0001 C CNN
+F 1 "VD" H 2917 1373 50  0000 C CNN
+F 2 "" H 2900 1200 50  0001 C CNN
+F 3 "" H 2900 1200 50  0001 C CNN
+	1    2900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CEAC
+P 2900 1500
+AR Path="/5D4A7E61/5D55CEAC" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CEAC" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CEAC" Ref="#PWR065"  Part="1" 
+F 0 "#PWR065" H 2900 1350 50  0001 C CNN
+F 1 "VSS" H 2918 1673 50  0000 C CNN
+F 2 "" H 2900 1500 50  0001 C CNN
+F 3 "" H 2900 1500 50  0001 C CNN
+	1    2900 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CEB2
+P 3200 1350
+AR Path="/5D4A7E61/5D55CEB2" Ref="C?"  Part="1" 
+AR Path="/5D55CEB2" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CEB2" Ref="C36"  Part="1" 
+F 0 "C36" H 3315 1396 50  0000 L CNN
+F 1 "C" H 3315 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3238 1200 50  0001 C CNN
+F 3 "~" H 3200 1350 50  0001 C CNN
+	1    3200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CEB8
+P 3200 1200
+AR Path="/5D4A7E61/5D55CEB8" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CEB8" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CEB8" Ref="#PWR076"  Part="1" 
+F 0 "#PWR076" H 3200 1050 50  0001 C CNN
+F 1 "VD" H 3217 1373 50  0000 C CNN
+F 2 "" H 3200 1200 50  0001 C CNN
+F 3 "" H 3200 1200 50  0001 C CNN
+	1    3200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CEBE
+P 3200 1500
+AR Path="/5D4A7E61/5D55CEBE" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CEBE" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CEBE" Ref="#PWR077"  Part="1" 
+F 0 "#PWR077" H 3200 1350 50  0001 C CNN
+F 1 "VSS" H 3218 1673 50  0000 C CNN
+F 2 "" H 3200 1500 50  0001 C CNN
+F 3 "" H 3200 1500 50  0001 C CNN
+	1    3200 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CEC4
+P 3500 1350
+AR Path="/5D4A7E61/5D55CEC4" Ref="C?"  Part="1" 
+AR Path="/5D55CEC4" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CEC4" Ref="C42"  Part="1" 
+F 0 "C42" H 3615 1396 50  0000 L CNN
+F 1 "C" H 3615 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 1200 50  0001 C CNN
+F 3 "~" H 3500 1350 50  0001 C CNN
+	1    3500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CECA
+P 3500 1200
+AR Path="/5D4A7E61/5D55CECA" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CECA" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CECA" Ref="#PWR088"  Part="1" 
+F 0 "#PWR088" H 3500 1050 50  0001 C CNN
+F 1 "VD" H 3517 1373 50  0000 C CNN
+F 2 "" H 3500 1200 50  0001 C CNN
+F 3 "" H 3500 1200 50  0001 C CNN
+	1    3500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CED0
+P 3500 1500
+AR Path="/5D4A7E61/5D55CED0" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CED0" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CED0" Ref="#PWR089"  Part="1" 
+F 0 "#PWR089" H 3500 1350 50  0001 C CNN
+F 1 "VSS" H 3518 1673 50  0000 C CNN
+F 2 "" H 3500 1500 50  0001 C CNN
+F 3 "" H 3500 1500 50  0001 C CNN
+	1    3500 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CED6
+P 3800 1350
+AR Path="/5D4A7E61/5D55CED6" Ref="C?"  Part="1" 
+AR Path="/5D55CED6" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CED6" Ref="C48"  Part="1" 
+F 0 "C48" H 3915 1396 50  0000 L CNN
+F 1 "C" H 3915 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3838 1200 50  0001 C CNN
+F 3 "~" H 3800 1350 50  0001 C CNN
+	1    3800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CEDC
+P 3800 1200
+AR Path="/5D4A7E61/5D55CEDC" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CEDC" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CEDC" Ref="#PWR0100"  Part="1" 
+F 0 "#PWR0100" H 3800 1050 50  0001 C CNN
+F 1 "VD" H 3817 1373 50  0000 C CNN
+F 2 "" H 3800 1200 50  0001 C CNN
+F 3 "" H 3800 1200 50  0001 C CNN
+	1    3800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CEE2
+P 3800 1500
+AR Path="/5D4A7E61/5D55CEE2" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CEE2" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CEE2" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 3800 1350 50  0001 C CNN
+F 1 "VSS" H 3818 1673 50  0000 C CNN
+F 2 "" H 3800 1500 50  0001 C CNN
+F 3 "" H 3800 1500 50  0001 C CNN
+	1    3800 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CEE8
+P 4100 1350
+AR Path="/5D4A7E61/5D55CEE8" Ref="C?"  Part="1" 
+AR Path="/5D55CEE8" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CEE8" Ref="C54"  Part="1" 
+F 0 "C54" H 4215 1396 50  0000 L CNN
+F 1 "C" H 4215 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 1200 50  0001 C CNN
+F 3 "~" H 4100 1350 50  0001 C CNN
+	1    4100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CEEE
+P 4100 1200
+AR Path="/5D4A7E61/5D55CEEE" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CEEE" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CEEE" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 4100 1050 50  0001 C CNN
+F 1 "VD" H 4117 1373 50  0000 C CNN
+F 2 "" H 4100 1200 50  0001 C CNN
+F 3 "" H 4100 1200 50  0001 C CNN
+	1    4100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CEF4
+P 4100 1500
+AR Path="/5D4A7E61/5D55CEF4" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CEF4" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CEF4" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 4100 1350 50  0001 C CNN
+F 1 "VSS" H 4118 1673 50  0000 C CNN
+F 2 "" H 4100 1500 50  0001 C CNN
+F 3 "" H 4100 1500 50  0001 C CNN
+	1    4100 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CEFA
+P 4400 1350
+AR Path="/5D4A7E61/5D55CEFA" Ref="C?"  Part="1" 
+AR Path="/5D55CEFA" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CEFA" Ref="C60"  Part="1" 
+F 0 "C60" H 4515 1396 50  0000 L CNN
+F 1 "C" H 4515 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4438 1200 50  0001 C CNN
+F 3 "~" H 4400 1350 50  0001 C CNN
+	1    4400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CF00
+P 4400 1200
+AR Path="/5D4A7E61/5D55CF00" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF00" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF00" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 4400 1050 50  0001 C CNN
+F 1 "VD" H 4417 1373 50  0000 C CNN
+F 2 "" H 4400 1200 50  0001 C CNN
+F 3 "" H 4400 1200 50  0001 C CNN
+	1    4400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CF06
+P 4400 1500
+AR Path="/5D4A7E61/5D55CF06" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF06" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF06" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 4400 1350 50  0001 C CNN
+F 1 "VSS" H 4418 1673 50  0000 C CNN
+F 2 "" H 4400 1500 50  0001 C CNN
+F 3 "" H 4400 1500 50  0001 C CNN
+	1    4400 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CF0C
+P 4700 1350
+AR Path="/5D4A7E61/5D55CF0C" Ref="C?"  Part="1" 
+AR Path="/5D55CF0C" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CF0C" Ref="C66"  Part="1" 
+F 0 "C66" H 4815 1396 50  0000 L CNN
+F 1 "C" H 4815 1305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 1200 50  0001 C CNN
+F 3 "~" H 4700 1350 50  0001 C CNN
+	1    4700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CF12
+P 4700 1200
+AR Path="/5D4A7E61/5D55CF12" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF12" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF12" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 4700 1050 50  0001 C CNN
+F 1 "VD" H 4717 1373 50  0000 C CNN
+F 2 "" H 4700 1200 50  0001 C CNN
+F 3 "" H 4700 1200 50  0001 C CNN
+	1    4700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CF18
+P 4700 1500
+AR Path="/5D4A7E61/5D55CF18" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF18" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF18" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 4700 1350 50  0001 C CNN
+F 1 "VSS" H 4718 1673 50  0000 C CNN
+F 2 "" H 4700 1500 50  0001 C CNN
+F 3 "" H 4700 1500 50  0001 C CNN
+	1    4700 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CF1E
+P 2300 2150
+AR Path="/5D4A7E61/5D55CF1E" Ref="C?"  Part="1" 
+AR Path="/5D55CF1E" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CF1E" Ref="C17"  Part="1" 
+F 0 "C17" H 2415 2196 50  0000 L CNN
+F 1 "C" H 2415 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 2000 50  0001 C CNN
+F 3 "~" H 2300 2150 50  0001 C CNN
+	1    2300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CF24
+P 2300 2000
+AR Path="/5D4A7E61/5D55CF24" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF24" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF24" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 2300 1850 50  0001 C CNN
+F 1 "VD" H 2317 2173 50  0000 C CNN
+F 2 "" H 2300 2000 50  0001 C CNN
+F 3 "" H 2300 2000 50  0001 C CNN
+	1    2300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CF2A
+P 2300 2300
+AR Path="/5D4A7E61/5D55CF2A" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF2A" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF2A" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 2300 2150 50  0001 C CNN
+F 1 "VSS" H 2318 2473 50  0000 C CNN
+F 2 "" H 2300 2300 50  0001 C CNN
+F 3 "" H 2300 2300 50  0001 C CNN
+	1    2300 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CF30
+P 2600 2150
+AR Path="/5D4A7E61/5D55CF30" Ref="C?"  Part="1" 
+AR Path="/5D55CF30" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CF30" Ref="C24"  Part="1" 
+F 0 "C24" H 2715 2196 50  0000 L CNN
+F 1 "C" H 2715 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 2000 50  0001 C CNN
+F 3 "~" H 2600 2150 50  0001 C CNN
+	1    2600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CF36
+P 2600 2000
+AR Path="/5D4A7E61/5D55CF36" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF36" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF36" Ref="#PWR052"  Part="1" 
+F 0 "#PWR052" H 2600 1850 50  0001 C CNN
+F 1 "VD" H 2617 2173 50  0000 C CNN
+F 2 "" H 2600 2000 50  0001 C CNN
+F 3 "" H 2600 2000 50  0001 C CNN
+	1    2600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CF3C
+P 2600 2300
+AR Path="/5D4A7E61/5D55CF3C" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF3C" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF3C" Ref="#PWR053"  Part="1" 
+F 0 "#PWR053" H 2600 2150 50  0001 C CNN
+F 1 "VSS" H 2618 2473 50  0000 C CNN
+F 2 "" H 2600 2300 50  0001 C CNN
+F 3 "" H 2600 2300 50  0001 C CNN
+	1    2600 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CF42
+P 2900 2150
+AR Path="/5D4A7E61/5D55CF42" Ref="C?"  Part="1" 
+AR Path="/5D55CF42" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CF42" Ref="C31"  Part="1" 
+F 0 "C31" H 3015 2196 50  0000 L CNN
+F 1 "C" H 3015 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 2000 50  0001 C CNN
+F 3 "~" H 2900 2150 50  0001 C CNN
+	1    2900 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CF48
+P 2900 2000
+AR Path="/5D4A7E61/5D55CF48" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF48" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF48" Ref="#PWR066"  Part="1" 
+F 0 "#PWR066" H 2900 1850 50  0001 C CNN
+F 1 "VD" H 2917 2173 50  0000 C CNN
+F 2 "" H 2900 2000 50  0001 C CNN
+F 3 "" H 2900 2000 50  0001 C CNN
+	1    2900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CF4E
+P 2900 2300
+AR Path="/5D4A7E61/5D55CF4E" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF4E" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF4E" Ref="#PWR067"  Part="1" 
+F 0 "#PWR067" H 2900 2150 50  0001 C CNN
+F 1 "VSS" H 2918 2473 50  0000 C CNN
+F 2 "" H 2900 2300 50  0001 C CNN
+F 3 "" H 2900 2300 50  0001 C CNN
+	1    2900 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CF54
+P 3200 2150
+AR Path="/5D4A7E61/5D55CF54" Ref="C?"  Part="1" 
+AR Path="/5D55CF54" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CF54" Ref="C37"  Part="1" 
+F 0 "C37" H 3315 2196 50  0000 L CNN
+F 1 "C" H 3315 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3238 2000 50  0001 C CNN
+F 3 "~" H 3200 2150 50  0001 C CNN
+	1    3200 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CF5A
+P 3200 2000
+AR Path="/5D4A7E61/5D55CF5A" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF5A" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF5A" Ref="#PWR078"  Part="1" 
+F 0 "#PWR078" H 3200 1850 50  0001 C CNN
+F 1 "VD" H 3217 2173 50  0000 C CNN
+F 2 "" H 3200 2000 50  0001 C CNN
+F 3 "" H 3200 2000 50  0001 C CNN
+	1    3200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CF60
+P 3200 2300
+AR Path="/5D4A7E61/5D55CF60" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF60" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF60" Ref="#PWR079"  Part="1" 
+F 0 "#PWR079" H 3200 2150 50  0001 C CNN
+F 1 "VSS" H 3218 2473 50  0000 C CNN
+F 2 "" H 3200 2300 50  0001 C CNN
+F 3 "" H 3200 2300 50  0001 C CNN
+	1    3200 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CF66
+P 3500 2150
+AR Path="/5D4A7E61/5D55CF66" Ref="C?"  Part="1" 
+AR Path="/5D55CF66" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CF66" Ref="C43"  Part="1" 
+F 0 "C43" H 3615 2196 50  0000 L CNN
+F 1 "C" H 3615 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 2000 50  0001 C CNN
+F 3 "~" H 3500 2150 50  0001 C CNN
+	1    3500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CF6C
+P 3500 2000
+AR Path="/5D4A7E61/5D55CF6C" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF6C" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF6C" Ref="#PWR090"  Part="1" 
+F 0 "#PWR090" H 3500 1850 50  0001 C CNN
+F 1 "VD" H 3517 2173 50  0000 C CNN
+F 2 "" H 3500 2000 50  0001 C CNN
+F 3 "" H 3500 2000 50  0001 C CNN
+	1    3500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CF72
+P 3500 2300
+AR Path="/5D4A7E61/5D55CF72" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF72" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF72" Ref="#PWR091"  Part="1" 
+F 0 "#PWR091" H 3500 2150 50  0001 C CNN
+F 1 "VSS" H 3518 2473 50  0000 C CNN
+F 2 "" H 3500 2300 50  0001 C CNN
+F 3 "" H 3500 2300 50  0001 C CNN
+	1    3500 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CF78
+P 3800 2150
+AR Path="/5D4A7E61/5D55CF78" Ref="C?"  Part="1" 
+AR Path="/5D55CF78" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CF78" Ref="C49"  Part="1" 
+F 0 "C49" H 3915 2196 50  0000 L CNN
+F 1 "C" H 3915 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3838 2000 50  0001 C CNN
+F 3 "~" H 3800 2150 50  0001 C CNN
+	1    3800 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CF7E
+P 3800 2000
+AR Path="/5D4A7E61/5D55CF7E" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF7E" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF7E" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 3800 1850 50  0001 C CNN
+F 1 "VD" H 3817 2173 50  0000 C CNN
+F 2 "" H 3800 2000 50  0001 C CNN
+F 3 "" H 3800 2000 50  0001 C CNN
+	1    3800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CF84
+P 3800 2300
+AR Path="/5D4A7E61/5D55CF84" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF84" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF84" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 3800 2150 50  0001 C CNN
+F 1 "VSS" H 3818 2473 50  0000 C CNN
+F 2 "" H 3800 2300 50  0001 C CNN
+F 3 "" H 3800 2300 50  0001 C CNN
+	1    3800 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CF8A
+P 4100 2150
+AR Path="/5D4A7E61/5D55CF8A" Ref="C?"  Part="1" 
+AR Path="/5D55CF8A" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CF8A" Ref="C55"  Part="1" 
+F 0 "C55" H 4215 2196 50  0000 L CNN
+F 1 "C" H 4215 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 2000 50  0001 C CNN
+F 3 "~" H 4100 2150 50  0001 C CNN
+	1    4100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CF90
+P 4100 2000
+AR Path="/5D4A7E61/5D55CF90" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF90" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF90" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 4100 1850 50  0001 C CNN
+F 1 "VD" H 4117 2173 50  0000 C CNN
+F 2 "" H 4100 2000 50  0001 C CNN
+F 3 "" H 4100 2000 50  0001 C CNN
+	1    4100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CF96
+P 4100 2300
+AR Path="/5D4A7E61/5D55CF96" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CF96" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CF96" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 4100 2150 50  0001 C CNN
+F 1 "VSS" H 4118 2473 50  0000 C CNN
+F 2 "" H 4100 2300 50  0001 C CNN
+F 3 "" H 4100 2300 50  0001 C CNN
+	1    4100 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CF9C
+P 4400 2150
+AR Path="/5D4A7E61/5D55CF9C" Ref="C?"  Part="1" 
+AR Path="/5D55CF9C" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CF9C" Ref="C61"  Part="1" 
+F 0 "C61" H 4515 2196 50  0000 L CNN
+F 1 "C" H 4515 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4438 2000 50  0001 C CNN
+F 3 "~" H 4400 2150 50  0001 C CNN
+	1    4400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CFA2
+P 4400 2000
+AR Path="/5D4A7E61/5D55CFA2" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CFA2" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CFA2" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 4400 1850 50  0001 C CNN
+F 1 "VD" H 4417 2173 50  0000 C CNN
+F 2 "" H 4400 2000 50  0001 C CNN
+F 3 "" H 4400 2000 50  0001 C CNN
+	1    4400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CFA8
+P 4400 2300
+AR Path="/5D4A7E61/5D55CFA8" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CFA8" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CFA8" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 4400 2150 50  0001 C CNN
+F 1 "VSS" H 4418 2473 50  0000 C CNN
+F 2 "" H 4400 2300 50  0001 C CNN
+F 3 "" H 4400 2300 50  0001 C CNN
+	1    4400 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CFAE
+P 4700 2150
+AR Path="/5D4A7E61/5D55CFAE" Ref="C?"  Part="1" 
+AR Path="/5D55CFAE" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CFAE" Ref="C67"  Part="1" 
+F 0 "C67" H 4815 2196 50  0000 L CNN
+F 1 "C" H 4815 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 2000 50  0001 C CNN
+F 3 "~" H 4700 2150 50  0001 C CNN
+	1    4700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CFB4
+P 4700 2000
+AR Path="/5D4A7E61/5D55CFB4" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CFB4" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CFB4" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 4700 1850 50  0001 C CNN
+F 1 "VD" H 4717 2173 50  0000 C CNN
+F 2 "" H 4700 2000 50  0001 C CNN
+F 3 "" H 4700 2000 50  0001 C CNN
+	1    4700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CFBA
+P 4700 2300
+AR Path="/5D4A7E61/5D55CFBA" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CFBA" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CFBA" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 4700 2150 50  0001 C CNN
+F 1 "VSS" H 4718 2473 50  0000 C CNN
+F 2 "" H 4700 2300 50  0001 C CNN
+F 3 "" H 4700 2300 50  0001 C CNN
+	1    4700 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CFC0
+P 2300 2950
+AR Path="/5D4A7E61/5D55CFC0" Ref="C?"  Part="1" 
+AR Path="/5D55CFC0" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CFC0" Ref="C18"  Part="1" 
+F 0 "C18" H 2415 2996 50  0000 L CNN
+F 1 "C" H 2415 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 2800 50  0001 C CNN
+F 3 "~" H 2300 2950 50  0001 C CNN
+	1    2300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CFC6
+P 2300 2800
+AR Path="/5D4A7E61/5D55CFC6" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CFC6" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CFC6" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 2300 2650 50  0001 C CNN
+F 1 "VD" H 2317 2973 50  0000 C CNN
+F 2 "" H 2300 2800 50  0001 C CNN
+F 3 "" H 2300 2800 50  0001 C CNN
+	1    2300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CFCC
+P 2300 3100
+AR Path="/5D4A7E61/5D55CFCC" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CFCC" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CFCC" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 2300 2950 50  0001 C CNN
+F 1 "VSS" H 2318 3273 50  0000 C CNN
+F 2 "" H 2300 3100 50  0001 C CNN
+F 3 "" H 2300 3100 50  0001 C CNN
+	1    2300 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CFD2
+P 2600 2950
+AR Path="/5D4A7E61/5D55CFD2" Ref="C?"  Part="1" 
+AR Path="/5D55CFD2" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CFD2" Ref="C25"  Part="1" 
+F 0 "C25" H 2715 2996 50  0000 L CNN
+F 1 "C" H 2715 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 2800 50  0001 C CNN
+F 3 "~" H 2600 2950 50  0001 C CNN
+	1    2600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CFD8
+P 2600 2800
+AR Path="/5D4A7E61/5D55CFD8" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CFD8" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CFD8" Ref="#PWR054"  Part="1" 
+F 0 "#PWR054" H 2600 2650 50  0001 C CNN
+F 1 "VD" H 2617 2973 50  0000 C CNN
+F 2 "" H 2600 2800 50  0001 C CNN
+F 3 "" H 2600 2800 50  0001 C CNN
+	1    2600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CFDE
+P 2600 3100
+AR Path="/5D4A7E61/5D55CFDE" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CFDE" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CFDE" Ref="#PWR055"  Part="1" 
+F 0 "#PWR055" H 2600 2950 50  0001 C CNN
+F 1 "VSS" H 2618 3273 50  0000 C CNN
+F 2 "" H 2600 3100 50  0001 C CNN
+F 3 "" H 2600 3100 50  0001 C CNN
+	1    2600 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CFE4
+P 2900 2950
+AR Path="/5D4A7E61/5D55CFE4" Ref="C?"  Part="1" 
+AR Path="/5D55CFE4" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CFE4" Ref="C32"  Part="1" 
+F 0 "C32" H 3015 2996 50  0000 L CNN
+F 1 "C" H 3015 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 2800 50  0001 C CNN
+F 3 "~" H 2900 2950 50  0001 C CNN
+	1    2900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CFEA
+P 2900 2800
+AR Path="/5D4A7E61/5D55CFEA" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CFEA" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CFEA" Ref="#PWR068"  Part="1" 
+F 0 "#PWR068" H 2900 2650 50  0001 C CNN
+F 1 "VD" H 2917 2973 50  0000 C CNN
+F 2 "" H 2900 2800 50  0001 C CNN
+F 3 "" H 2900 2800 50  0001 C CNN
+	1    2900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55CFF0
+P 2900 3100
+AR Path="/5D4A7E61/5D55CFF0" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CFF0" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CFF0" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 2900 2950 50  0001 C CNN
+F 1 "VSS" H 2918 3273 50  0000 C CNN
+F 2 "" H 2900 3100 50  0001 C CNN
+F 3 "" H 2900 3100 50  0001 C CNN
+	1    2900 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55CFF6
+P 3200 2950
+AR Path="/5D4A7E61/5D55CFF6" Ref="C?"  Part="1" 
+AR Path="/5D55CFF6" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55CFF6" Ref="C38"  Part="1" 
+F 0 "C38" H 3315 2996 50  0000 L CNN
+F 1 "C" H 3315 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3238 2800 50  0001 C CNN
+F 3 "~" H 3200 2950 50  0001 C CNN
+	1    3200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55CFFC
+P 3200 2800
+AR Path="/5D4A7E61/5D55CFFC" Ref="#PWR?"  Part="1" 
+AR Path="/5D55CFFC" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55CFFC" Ref="#PWR080"  Part="1" 
+F 0 "#PWR080" H 3200 2650 50  0001 C CNN
+F 1 "VD" H 3217 2973 50  0000 C CNN
+F 2 "" H 3200 2800 50  0001 C CNN
+F 3 "" H 3200 2800 50  0001 C CNN
+	1    3200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D002
+P 3200 3100
+AR Path="/5D4A7E61/5D55D002" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D002" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D002" Ref="#PWR081"  Part="1" 
+F 0 "#PWR081" H 3200 2950 50  0001 C CNN
+F 1 "VSS" H 3218 3273 50  0000 C CNN
+F 2 "" H 3200 3100 50  0001 C CNN
+F 3 "" H 3200 3100 50  0001 C CNN
+	1    3200 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D008
+P 3500 2950
+AR Path="/5D4A7E61/5D55D008" Ref="C?"  Part="1" 
+AR Path="/5D55D008" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D008" Ref="C44"  Part="1" 
+F 0 "C44" H 3615 2996 50  0000 L CNN
+F 1 "C" H 3615 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 2800 50  0001 C CNN
+F 3 "~" H 3500 2950 50  0001 C CNN
+	1    3500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D00E
+P 3500 2800
+AR Path="/5D4A7E61/5D55D00E" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D00E" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D00E" Ref="#PWR092"  Part="1" 
+F 0 "#PWR092" H 3500 2650 50  0001 C CNN
+F 1 "VD" H 3517 2973 50  0000 C CNN
+F 2 "" H 3500 2800 50  0001 C CNN
+F 3 "" H 3500 2800 50  0001 C CNN
+	1    3500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D014
+P 3500 3100
+AR Path="/5D4A7E61/5D55D014" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D014" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D014" Ref="#PWR093"  Part="1" 
+F 0 "#PWR093" H 3500 2950 50  0001 C CNN
+F 1 "VSS" H 3518 3273 50  0000 C CNN
+F 2 "" H 3500 3100 50  0001 C CNN
+F 3 "" H 3500 3100 50  0001 C CNN
+	1    3500 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D01A
+P 3800 2950
+AR Path="/5D4A7E61/5D55D01A" Ref="C?"  Part="1" 
+AR Path="/5D55D01A" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D01A" Ref="C50"  Part="1" 
+F 0 "C50" H 3915 2996 50  0000 L CNN
+F 1 "C" H 3915 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3838 2800 50  0001 C CNN
+F 3 "~" H 3800 2950 50  0001 C CNN
+	1    3800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D020
+P 3800 2800
+AR Path="/5D4A7E61/5D55D020" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D020" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D020" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 3800 2650 50  0001 C CNN
+F 1 "VD" H 3817 2973 50  0000 C CNN
+F 2 "" H 3800 2800 50  0001 C CNN
+F 3 "" H 3800 2800 50  0001 C CNN
+	1    3800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D026
+P 3800 3100
+AR Path="/5D4A7E61/5D55D026" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D026" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D026" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 3800 2950 50  0001 C CNN
+F 1 "VSS" H 3818 3273 50  0000 C CNN
+F 2 "" H 3800 3100 50  0001 C CNN
+F 3 "" H 3800 3100 50  0001 C CNN
+	1    3800 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D02C
+P 4100 2950
+AR Path="/5D4A7E61/5D55D02C" Ref="C?"  Part="1" 
+AR Path="/5D55D02C" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D02C" Ref="C56"  Part="1" 
+F 0 "C56" H 4215 2996 50  0000 L CNN
+F 1 "C" H 4215 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 2800 50  0001 C CNN
+F 3 "~" H 4100 2950 50  0001 C CNN
+	1    4100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D032
+P 4100 2800
+AR Path="/5D4A7E61/5D55D032" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D032" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D032" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 4100 2650 50  0001 C CNN
+F 1 "VD" H 4117 2973 50  0000 C CNN
+F 2 "" H 4100 2800 50  0001 C CNN
+F 3 "" H 4100 2800 50  0001 C CNN
+	1    4100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D038
+P 4100 3100
+AR Path="/5D4A7E61/5D55D038" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D038" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D038" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 4100 2950 50  0001 C CNN
+F 1 "VSS" H 4118 3273 50  0000 C CNN
+F 2 "" H 4100 3100 50  0001 C CNN
+F 3 "" H 4100 3100 50  0001 C CNN
+	1    4100 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D03E
+P 4400 2950
+AR Path="/5D4A7E61/5D55D03E" Ref="C?"  Part="1" 
+AR Path="/5D55D03E" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D03E" Ref="C62"  Part="1" 
+F 0 "C62" H 4515 2996 50  0000 L CNN
+F 1 "C" H 4515 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4438 2800 50  0001 C CNN
+F 3 "~" H 4400 2950 50  0001 C CNN
+	1    4400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D044
+P 4400 2800
+AR Path="/5D4A7E61/5D55D044" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D044" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D044" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 4400 2650 50  0001 C CNN
+F 1 "VD" H 4417 2973 50  0000 C CNN
+F 2 "" H 4400 2800 50  0001 C CNN
+F 3 "" H 4400 2800 50  0001 C CNN
+	1    4400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D04A
+P 4400 3100
+AR Path="/5D4A7E61/5D55D04A" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D04A" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D04A" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 4400 2950 50  0001 C CNN
+F 1 "VSS" H 4418 3273 50  0000 C CNN
+F 2 "" H 4400 3100 50  0001 C CNN
+F 3 "" H 4400 3100 50  0001 C CNN
+	1    4400 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D050
+P 4700 2950
+AR Path="/5D4A7E61/5D55D050" Ref="C?"  Part="1" 
+AR Path="/5D55D050" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D050" Ref="C68"  Part="1" 
+F 0 "C68" H 4815 2996 50  0000 L CNN
+F 1 "C" H 4815 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 2800 50  0001 C CNN
+F 3 "~" H 4700 2950 50  0001 C CNN
+	1    4700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D056
+P 4700 2800
+AR Path="/5D4A7E61/5D55D056" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D056" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D056" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 4700 2650 50  0001 C CNN
+F 1 "VD" H 4717 2973 50  0000 C CNN
+F 2 "" H 4700 2800 50  0001 C CNN
+F 3 "" H 4700 2800 50  0001 C CNN
+	1    4700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D05C
+P 4700 3100
+AR Path="/5D4A7E61/5D55D05C" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D05C" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D05C" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 4700 2950 50  0001 C CNN
+F 1 "VSS" H 4718 3273 50  0000 C CNN
+F 2 "" H 4700 3100 50  0001 C CNN
+F 3 "" H 4700 3100 50  0001 C CNN
+	1    4700 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D062
+P 2300 3800
+AR Path="/5D4A7E61/5D55D062" Ref="C?"  Part="1" 
+AR Path="/5D55D062" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D062" Ref="C19"  Part="1" 
+F 0 "C19" H 2415 3846 50  0000 L CNN
+F 1 "C" H 2415 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 3650 50  0001 C CNN
+F 3 "~" H 2300 3800 50  0001 C CNN
+	1    2300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D068
+P 2300 3650
+AR Path="/5D4A7E61/5D55D068" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D068" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D068" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 2300 3500 50  0001 C CNN
+F 1 "VD" H 2317 3823 50  0000 C CNN
+F 2 "" H 2300 3650 50  0001 C CNN
+F 3 "" H 2300 3650 50  0001 C CNN
+	1    2300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D06E
+P 2300 3950
+AR Path="/5D4A7E61/5D55D06E" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D06E" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D06E" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 2300 3800 50  0001 C CNN
+F 1 "VSS" H 2318 4123 50  0000 C CNN
+F 2 "" H 2300 3950 50  0001 C CNN
+F 3 "" H 2300 3950 50  0001 C CNN
+	1    2300 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D074
+P 2600 3800
+AR Path="/5D4A7E61/5D55D074" Ref="C?"  Part="1" 
+AR Path="/5D55D074" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D074" Ref="C26"  Part="1" 
+F 0 "C26" H 2715 3846 50  0000 L CNN
+F 1 "C" H 2715 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 3650 50  0001 C CNN
+F 3 "~" H 2600 3800 50  0001 C CNN
+	1    2600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D07A
+P 2600 3650
+AR Path="/5D4A7E61/5D55D07A" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D07A" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D07A" Ref="#PWR056"  Part="1" 
+F 0 "#PWR056" H 2600 3500 50  0001 C CNN
+F 1 "VD" H 2617 3823 50  0000 C CNN
+F 2 "" H 2600 3650 50  0001 C CNN
+F 3 "" H 2600 3650 50  0001 C CNN
+	1    2600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D080
+P 2600 3950
+AR Path="/5D4A7E61/5D55D080" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D080" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D080" Ref="#PWR057"  Part="1" 
+F 0 "#PWR057" H 2600 3800 50  0001 C CNN
+F 1 "VSS" H 2618 4123 50  0000 C CNN
+F 2 "" H 2600 3950 50  0001 C CNN
+F 3 "" H 2600 3950 50  0001 C CNN
+	1    2600 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D086
+P 2900 3800
+AR Path="/5D4A7E61/5D55D086" Ref="C?"  Part="1" 
+AR Path="/5D55D086" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D086" Ref="C33"  Part="1" 
+F 0 "C33" H 3015 3846 50  0000 L CNN
+F 1 "C" H 3015 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 3650 50  0001 C CNN
+F 3 "~" H 2900 3800 50  0001 C CNN
+	1    2900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D08C
+P 2900 3650
+AR Path="/5D4A7E61/5D55D08C" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D08C" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D08C" Ref="#PWR070"  Part="1" 
+F 0 "#PWR070" H 2900 3500 50  0001 C CNN
+F 1 "VD" H 2917 3823 50  0000 C CNN
+F 2 "" H 2900 3650 50  0001 C CNN
+F 3 "" H 2900 3650 50  0001 C CNN
+	1    2900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D092
+P 2900 3950
+AR Path="/5D4A7E61/5D55D092" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D092" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D092" Ref="#PWR071"  Part="1" 
+F 0 "#PWR071" H 2900 3800 50  0001 C CNN
+F 1 "VSS" H 2918 4123 50  0000 C CNN
+F 2 "" H 2900 3950 50  0001 C CNN
+F 3 "" H 2900 3950 50  0001 C CNN
+	1    2900 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D098
+P 3200 3800
+AR Path="/5D4A7E61/5D55D098" Ref="C?"  Part="1" 
+AR Path="/5D55D098" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D098" Ref="C39"  Part="1" 
+F 0 "C39" H 3315 3846 50  0000 L CNN
+F 1 "C" H 3315 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3238 3650 50  0001 C CNN
+F 3 "~" H 3200 3800 50  0001 C CNN
+	1    3200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D09E
+P 3200 3650
+AR Path="/5D4A7E61/5D55D09E" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D09E" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D09E" Ref="#PWR082"  Part="1" 
+F 0 "#PWR082" H 3200 3500 50  0001 C CNN
+F 1 "VD" H 3217 3823 50  0000 C CNN
+F 2 "" H 3200 3650 50  0001 C CNN
+F 3 "" H 3200 3650 50  0001 C CNN
+	1    3200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D0A4
+P 3200 3950
+AR Path="/5D4A7E61/5D55D0A4" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D0A4" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D0A4" Ref="#PWR083"  Part="1" 
+F 0 "#PWR083" H 3200 3800 50  0001 C CNN
+F 1 "VSS" H 3218 4123 50  0000 C CNN
+F 2 "" H 3200 3950 50  0001 C CNN
+F 3 "" H 3200 3950 50  0001 C CNN
+	1    3200 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D0AA
+P 3500 3800
+AR Path="/5D4A7E61/5D55D0AA" Ref="C?"  Part="1" 
+AR Path="/5D55D0AA" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D0AA" Ref="C45"  Part="1" 
+F 0 "C45" H 3615 3846 50  0000 L CNN
+F 1 "C" H 3615 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 3650 50  0001 C CNN
+F 3 "~" H 3500 3800 50  0001 C CNN
+	1    3500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D0B0
+P 3500 3650
+AR Path="/5D4A7E61/5D55D0B0" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D0B0" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D0B0" Ref="#PWR094"  Part="1" 
+F 0 "#PWR094" H 3500 3500 50  0001 C CNN
+F 1 "VD" H 3517 3823 50  0000 C CNN
+F 2 "" H 3500 3650 50  0001 C CNN
+F 3 "" H 3500 3650 50  0001 C CNN
+	1    3500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D0B6
+P 3500 3950
+AR Path="/5D4A7E61/5D55D0B6" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D0B6" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D0B6" Ref="#PWR095"  Part="1" 
+F 0 "#PWR095" H 3500 3800 50  0001 C CNN
+F 1 "VSS" H 3518 4123 50  0000 C CNN
+F 2 "" H 3500 3950 50  0001 C CNN
+F 3 "" H 3500 3950 50  0001 C CNN
+	1    3500 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D0BC
+P 3800 3800
+AR Path="/5D4A7E61/5D55D0BC" Ref="C?"  Part="1" 
+AR Path="/5D55D0BC" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D0BC" Ref="C51"  Part="1" 
+F 0 "C51" H 3915 3846 50  0000 L CNN
+F 1 "C" H 3915 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3838 3650 50  0001 C CNN
+F 3 "~" H 3800 3800 50  0001 C CNN
+	1    3800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D0C2
+P 3800 3650
+AR Path="/5D4A7E61/5D55D0C2" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D0C2" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D0C2" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 3800 3500 50  0001 C CNN
+F 1 "VD" H 3817 3823 50  0000 C CNN
+F 2 "" H 3800 3650 50  0001 C CNN
+F 3 "" H 3800 3650 50  0001 C CNN
+	1    3800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D0C8
+P 3800 3950
+AR Path="/5D4A7E61/5D55D0C8" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D0C8" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D0C8" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 3800 3800 50  0001 C CNN
+F 1 "VSS" H 3818 4123 50  0000 C CNN
+F 2 "" H 3800 3950 50  0001 C CNN
+F 3 "" H 3800 3950 50  0001 C CNN
+	1    3800 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D0CE
+P 4100 3800
+AR Path="/5D4A7E61/5D55D0CE" Ref="C?"  Part="1" 
+AR Path="/5D55D0CE" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D0CE" Ref="C57"  Part="1" 
+F 0 "C57" H 4215 3846 50  0000 L CNN
+F 1 "C" H 4215 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 3650 50  0001 C CNN
+F 3 "~" H 4100 3800 50  0001 C CNN
+	1    4100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D0D4
+P 4100 3650
+AR Path="/5D4A7E61/5D55D0D4" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D0D4" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D0D4" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 4100 3500 50  0001 C CNN
+F 1 "VD" H 4117 3823 50  0000 C CNN
+F 2 "" H 4100 3650 50  0001 C CNN
+F 3 "" H 4100 3650 50  0001 C CNN
+	1    4100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D0DA
+P 4100 3950
+AR Path="/5D4A7E61/5D55D0DA" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D0DA" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D0DA" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 4100 3800 50  0001 C CNN
+F 1 "VSS" H 4118 4123 50  0000 C CNN
+F 2 "" H 4100 3950 50  0001 C CNN
+F 3 "" H 4100 3950 50  0001 C CNN
+	1    4100 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D0E0
+P 4400 3800
+AR Path="/5D4A7E61/5D55D0E0" Ref="C?"  Part="1" 
+AR Path="/5D55D0E0" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D0E0" Ref="C63"  Part="1" 
+F 0 "C63" H 4515 3846 50  0000 L CNN
+F 1 "C" H 4515 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4438 3650 50  0001 C CNN
+F 3 "~" H 4400 3800 50  0001 C CNN
+	1    4400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D0E6
+P 4400 3650
+AR Path="/5D4A7E61/5D55D0E6" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D0E6" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D0E6" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 4400 3500 50  0001 C CNN
+F 1 "VD" H 4417 3823 50  0000 C CNN
+F 2 "" H 4400 3650 50  0001 C CNN
+F 3 "" H 4400 3650 50  0001 C CNN
+	1    4400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D0EC
+P 4400 3950
+AR Path="/5D4A7E61/5D55D0EC" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D0EC" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D0EC" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 4400 3800 50  0001 C CNN
+F 1 "VSS" H 4418 4123 50  0000 C CNN
+F 2 "" H 4400 3950 50  0001 C CNN
+F 3 "" H 4400 3950 50  0001 C CNN
+	1    4400 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D0F2
+P 4700 3800
+AR Path="/5D4A7E61/5D55D0F2" Ref="C?"  Part="1" 
+AR Path="/5D55D0F2" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D0F2" Ref="C69"  Part="1" 
+F 0 "C69" H 4815 3846 50  0000 L CNN
+F 1 "C" H 4815 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 3650 50  0001 C CNN
+F 3 "~" H 4700 3800 50  0001 C CNN
+	1    4700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D0F8
+P 4700 3650
+AR Path="/5D4A7E61/5D55D0F8" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D0F8" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D0F8" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 4700 3500 50  0001 C CNN
+F 1 "VD" H 4717 3823 50  0000 C CNN
+F 2 "" H 4700 3650 50  0001 C CNN
+F 3 "" H 4700 3650 50  0001 C CNN
+	1    4700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D0FE
+P 4700 3950
+AR Path="/5D4A7E61/5D55D0FE" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D0FE" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D0FE" Ref="#PWR0143"  Part="1" 
+F 0 "#PWR0143" H 4700 3800 50  0001 C CNN
+F 1 "VSS" H 4718 4123 50  0000 C CNN
+F 2 "" H 4700 3950 50  0001 C CNN
+F 3 "" H 4700 3950 50  0001 C CNN
+	1    4700 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D104
+P 2300 4650
+AR Path="/5D4A7E61/5D55D104" Ref="C?"  Part="1" 
+AR Path="/5D55D104" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D104" Ref="C20"  Part="1" 
+F 0 "C20" H 2415 4696 50  0000 L CNN
+F 1 "C" H 2415 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 4500 50  0001 C CNN
+F 3 "~" H 2300 4650 50  0001 C CNN
+	1    2300 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D10A
+P 2300 4500
+AR Path="/5D4A7E61/5D55D10A" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D10A" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D10A" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 2300 4350 50  0001 C CNN
+F 1 "VD" H 2317 4673 50  0000 C CNN
+F 2 "" H 2300 4500 50  0001 C CNN
+F 3 "" H 2300 4500 50  0001 C CNN
+	1    2300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D110
+P 2300 4800
+AR Path="/5D4A7E61/5D55D110" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D110" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D110" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 2300 4650 50  0001 C CNN
+F 1 "VSS" H 2318 4973 50  0000 C CNN
+F 2 "" H 2300 4800 50  0001 C CNN
+F 3 "" H 2300 4800 50  0001 C CNN
+	1    2300 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D116
+P 2600 4650
+AR Path="/5D4A7E61/5D55D116" Ref="C?"  Part="1" 
+AR Path="/5D55D116" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D116" Ref="C27"  Part="1" 
+F 0 "C27" H 2715 4696 50  0000 L CNN
+F 1 "C" H 2715 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 4500 50  0001 C CNN
+F 3 "~" H 2600 4650 50  0001 C CNN
+	1    2600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D11C
+P 2600 4500
+AR Path="/5D4A7E61/5D55D11C" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D11C" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D11C" Ref="#PWR058"  Part="1" 
+F 0 "#PWR058" H 2600 4350 50  0001 C CNN
+F 1 "VD" H 2617 4673 50  0000 C CNN
+F 2 "" H 2600 4500 50  0001 C CNN
+F 3 "" H 2600 4500 50  0001 C CNN
+	1    2600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D122
+P 2600 4800
+AR Path="/5D4A7E61/5D55D122" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D122" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D122" Ref="#PWR059"  Part="1" 
+F 0 "#PWR059" H 2600 4650 50  0001 C CNN
+F 1 "VSS" H 2618 4973 50  0000 C CNN
+F 2 "" H 2600 4800 50  0001 C CNN
+F 3 "" H 2600 4800 50  0001 C CNN
+	1    2600 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D128
+P 2900 4650
+AR Path="/5D4A7E61/5D55D128" Ref="C?"  Part="1" 
+AR Path="/5D55D128" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D128" Ref="C34"  Part="1" 
+F 0 "C34" H 3015 4696 50  0000 L CNN
+F 1 "C" H 3015 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 4500 50  0001 C CNN
+F 3 "~" H 2900 4650 50  0001 C CNN
+	1    2900 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D12E
+P 2900 4500
+AR Path="/5D4A7E61/5D55D12E" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D12E" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D12E" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 2900 4350 50  0001 C CNN
+F 1 "VD" H 2917 4673 50  0000 C CNN
+F 2 "" H 2900 4500 50  0001 C CNN
+F 3 "" H 2900 4500 50  0001 C CNN
+	1    2900 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D134
+P 2900 4800
+AR Path="/5D4A7E61/5D55D134" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D134" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D134" Ref="#PWR073"  Part="1" 
+F 0 "#PWR073" H 2900 4650 50  0001 C CNN
+F 1 "VSS" H 2918 4973 50  0000 C CNN
+F 2 "" H 2900 4800 50  0001 C CNN
+F 3 "" H 2900 4800 50  0001 C CNN
+	1    2900 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D13A
+P 3200 4650
+AR Path="/5D4A7E61/5D55D13A" Ref="C?"  Part="1" 
+AR Path="/5D55D13A" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D13A" Ref="C40"  Part="1" 
+F 0 "C40" H 3315 4696 50  0000 L CNN
+F 1 "C" H 3315 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3238 4500 50  0001 C CNN
+F 3 "~" H 3200 4650 50  0001 C CNN
+	1    3200 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D140
+P 3200 4500
+AR Path="/5D4A7E61/5D55D140" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D140" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D140" Ref="#PWR084"  Part="1" 
+F 0 "#PWR084" H 3200 4350 50  0001 C CNN
+F 1 "VD" H 3217 4673 50  0000 C CNN
+F 2 "" H 3200 4500 50  0001 C CNN
+F 3 "" H 3200 4500 50  0001 C CNN
+	1    3200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D146
+P 3200 4800
+AR Path="/5D4A7E61/5D55D146" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D146" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D146" Ref="#PWR085"  Part="1" 
+F 0 "#PWR085" H 3200 4650 50  0001 C CNN
+F 1 "VSS" H 3218 4973 50  0000 C CNN
+F 2 "" H 3200 4800 50  0001 C CNN
+F 3 "" H 3200 4800 50  0001 C CNN
+	1    3200 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D14C
+P 3500 4650
+AR Path="/5D4A7E61/5D55D14C" Ref="C?"  Part="1" 
+AR Path="/5D55D14C" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D14C" Ref="C46"  Part="1" 
+F 0 "C46" H 3615 4696 50  0000 L CNN
+F 1 "C" H 3615 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 4500 50  0001 C CNN
+F 3 "~" H 3500 4650 50  0001 C CNN
+	1    3500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D152
+P 3500 4500
+AR Path="/5D4A7E61/5D55D152" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D152" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D152" Ref="#PWR096"  Part="1" 
+F 0 "#PWR096" H 3500 4350 50  0001 C CNN
+F 1 "VD" H 3517 4673 50  0000 C CNN
+F 2 "" H 3500 4500 50  0001 C CNN
+F 3 "" H 3500 4500 50  0001 C CNN
+	1    3500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D158
+P 3500 4800
+AR Path="/5D4A7E61/5D55D158" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D158" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D158" Ref="#PWR097"  Part="1" 
+F 0 "#PWR097" H 3500 4650 50  0001 C CNN
+F 1 "VSS" H 3518 4973 50  0000 C CNN
+F 2 "" H 3500 4800 50  0001 C CNN
+F 3 "" H 3500 4800 50  0001 C CNN
+	1    3500 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D15E
+P 3800 4650
+AR Path="/5D4A7E61/5D55D15E" Ref="C?"  Part="1" 
+AR Path="/5D55D15E" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D15E" Ref="C52"  Part="1" 
+F 0 "C52" H 3915 4696 50  0000 L CNN
+F 1 "C" H 3915 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3838 4500 50  0001 C CNN
+F 3 "~" H 3800 4650 50  0001 C CNN
+	1    3800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D164
+P 3800 4500
+AR Path="/5D4A7E61/5D55D164" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D164" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D164" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 3800 4350 50  0001 C CNN
+F 1 "VD" H 3817 4673 50  0000 C CNN
+F 2 "" H 3800 4500 50  0001 C CNN
+F 3 "" H 3800 4500 50  0001 C CNN
+	1    3800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D16A
+P 3800 4800
+AR Path="/5D4A7E61/5D55D16A" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D16A" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D16A" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 3800 4650 50  0001 C CNN
+F 1 "VSS" H 3818 4973 50  0000 C CNN
+F 2 "" H 3800 4800 50  0001 C CNN
+F 3 "" H 3800 4800 50  0001 C CNN
+	1    3800 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D170
+P 4100 4650
+AR Path="/5D4A7E61/5D55D170" Ref="C?"  Part="1" 
+AR Path="/5D55D170" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D170" Ref="C58"  Part="1" 
+F 0 "C58" H 4215 4696 50  0000 L CNN
+F 1 "C" H 4215 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 4500 50  0001 C CNN
+F 3 "~" H 4100 4650 50  0001 C CNN
+	1    4100 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D176
+P 4100 4500
+AR Path="/5D4A7E61/5D55D176" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D176" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D176" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 4100 4350 50  0001 C CNN
+F 1 "VD" H 4117 4673 50  0000 C CNN
+F 2 "" H 4100 4500 50  0001 C CNN
+F 3 "" H 4100 4500 50  0001 C CNN
+	1    4100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D17C
+P 4100 4800
+AR Path="/5D4A7E61/5D55D17C" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D17C" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D17C" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 4100 4650 50  0001 C CNN
+F 1 "VSS" H 4118 4973 50  0000 C CNN
+F 2 "" H 4100 4800 50  0001 C CNN
+F 3 "" H 4100 4800 50  0001 C CNN
+	1    4100 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D182
+P 4400 4650
+AR Path="/5D4A7E61/5D55D182" Ref="C?"  Part="1" 
+AR Path="/5D55D182" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D182" Ref="C64"  Part="1" 
+F 0 "C64" H 4515 4696 50  0000 L CNN
+F 1 "C" H 4515 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4438 4500 50  0001 C CNN
+F 3 "~" H 4400 4650 50  0001 C CNN
+	1    4400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D188
+P 4400 4500
+AR Path="/5D4A7E61/5D55D188" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D188" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D188" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 4400 4350 50  0001 C CNN
+F 1 "VD" H 4417 4673 50  0000 C CNN
+F 2 "" H 4400 4500 50  0001 C CNN
+F 3 "" H 4400 4500 50  0001 C CNN
+	1    4400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D18E
+P 4400 4800
+AR Path="/5D4A7E61/5D55D18E" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D18E" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D18E" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 4400 4650 50  0001 C CNN
+F 1 "VSS" H 4418 4973 50  0000 C CNN
+F 2 "" H 4400 4800 50  0001 C CNN
+F 3 "" H 4400 4800 50  0001 C CNN
+	1    4400 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D55D194
+P 4700 4650
+AR Path="/5D4A7E61/5D55D194" Ref="C?"  Part="1" 
+AR Path="/5D55D194" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D55D194" Ref="C70"  Part="1" 
+F 0 "C70" H 4815 4696 50  0000 L CNN
+F 1 "C" H 4815 4605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 4500 50  0001 C CNN
+F 3 "~" H 4700 4650 50  0001 C CNN
+	1    4700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D55D19A
+P 4700 4500
+AR Path="/5D4A7E61/5D55D19A" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D19A" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D19A" Ref="#PWR0144"  Part="1" 
+F 0 "#PWR0144" H 4700 4350 50  0001 C CNN
+F 1 "VD" H 4717 4673 50  0000 C CNN
+F 2 "" H 4700 4500 50  0001 C CNN
+F 3 "" H 4700 4500 50  0001 C CNN
+	1    4700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D55D1A0
+P 4700 4800
+AR Path="/5D4A7E61/5D55D1A0" Ref="#PWR?"  Part="1" 
+AR Path="/5D55D1A0" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D55D1A0" Ref="#PWR0145"  Part="1" 
+F 0 "#PWR0145" H 4700 4650 50  0001 C CNN
+F 1 "VSS" H 4718 4973 50  0000 C CNN
+F 2 "" H 4700 4800 50  0001 C CNN
+F 3 "" H 4700 4800 50  0001 C CNN
+	1    4700 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D5653F2
+P 2300 5500
+AR Path="/5D4A7E61/5D5653F2" Ref="C?"  Part="1" 
+AR Path="/5D5653F2" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D5653F2" Ref="C21"  Part="1" 
+F 0 "C21" H 2415 5546 50  0000 L CNN
+F 1 "C" H 2415 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 5350 50  0001 C CNN
+F 3 "~" H 2300 5500 50  0001 C CNN
+	1    2300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D5653F8
+P 2300 5350
+AR Path="/5D4A7E61/5D5653F8" Ref="#PWR?"  Part="1" 
+AR Path="/5D5653F8" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D5653F8" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 2300 5200 50  0001 C CNN
+F 1 "VD" H 2317 5523 50  0000 C CNN
+F 2 "" H 2300 5350 50  0001 C CNN
+F 3 "" H 2300 5350 50  0001 C CNN
+	1    2300 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D5653FE
+P 2300 5650
+AR Path="/5D4A7E61/5D5653FE" Ref="#PWR?"  Part="1" 
+AR Path="/5D5653FE" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D5653FE" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 2300 5500 50  0001 C CNN
+F 1 "VSS" H 2318 5823 50  0000 C CNN
+F 2 "" H 2300 5650 50  0001 C CNN
+F 3 "" H 2300 5650 50  0001 C CNN
+	1    2300 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D565404
+P 2600 5500
+AR Path="/5D4A7E61/5D565404" Ref="C?"  Part="1" 
+AR Path="/5D565404" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D565404" Ref="C28"  Part="1" 
+F 0 "C28" H 2715 5546 50  0000 L CNN
+F 1 "C" H 2715 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 5350 50  0001 C CNN
+F 3 "~" H 2600 5500 50  0001 C CNN
+	1    2600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D56540A
+P 2600 5350
+AR Path="/5D4A7E61/5D56540A" Ref="#PWR?"  Part="1" 
+AR Path="/5D56540A" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D56540A" Ref="#PWR060"  Part="1" 
+F 0 "#PWR060" H 2600 5200 50  0001 C CNN
+F 1 "VD" H 2617 5523 50  0000 C CNN
+F 2 "" H 2600 5350 50  0001 C CNN
+F 3 "" H 2600 5350 50  0001 C CNN
+	1    2600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D565410
+P 2600 5650
+AR Path="/5D4A7E61/5D565410" Ref="#PWR?"  Part="1" 
+AR Path="/5D565410" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D565410" Ref="#PWR061"  Part="1" 
+F 0 "#PWR061" H 2600 5500 50  0001 C CNN
+F 1 "VSS" H 2618 5823 50  0000 C CNN
+F 2 "" H 2600 5650 50  0001 C CNN
+F 3 "" H 2600 5650 50  0001 C CNN
+	1    2600 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D565416
+P 2900 5500
+AR Path="/5D4A7E61/5D565416" Ref="C?"  Part="1" 
+AR Path="/5D565416" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D565416" Ref="C35"  Part="1" 
+F 0 "C35" H 3015 5546 50  0000 L CNN
+F 1 "C" H 3015 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2938 5350 50  0001 C CNN
+F 3 "~" H 2900 5500 50  0001 C CNN
+	1    2900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D56541C
+P 2900 5350
+AR Path="/5D4A7E61/5D56541C" Ref="#PWR?"  Part="1" 
+AR Path="/5D56541C" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D56541C" Ref="#PWR074"  Part="1" 
+F 0 "#PWR074" H 2900 5200 50  0001 C CNN
+F 1 "VD" H 2917 5523 50  0000 C CNN
+F 2 "" H 2900 5350 50  0001 C CNN
+F 3 "" H 2900 5350 50  0001 C CNN
+	1    2900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D565422
+P 2900 5650
+AR Path="/5D4A7E61/5D565422" Ref="#PWR?"  Part="1" 
+AR Path="/5D565422" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D565422" Ref="#PWR075"  Part="1" 
+F 0 "#PWR075" H 2900 5500 50  0001 C CNN
+F 1 "VSS" H 2918 5823 50  0000 C CNN
+F 2 "" H 2900 5650 50  0001 C CNN
+F 3 "" H 2900 5650 50  0001 C CNN
+	1    2900 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D565428
+P 3200 5500
+AR Path="/5D4A7E61/5D565428" Ref="C?"  Part="1" 
+AR Path="/5D565428" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D565428" Ref="C41"  Part="1" 
+F 0 "C41" H 3315 5546 50  0000 L CNN
+F 1 "C" H 3315 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3238 5350 50  0001 C CNN
+F 3 "~" H 3200 5500 50  0001 C CNN
+	1    3200 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D56542E
+P 3200 5350
+AR Path="/5D4A7E61/5D56542E" Ref="#PWR?"  Part="1" 
+AR Path="/5D56542E" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D56542E" Ref="#PWR086"  Part="1" 
+F 0 "#PWR086" H 3200 5200 50  0001 C CNN
+F 1 "VD" H 3217 5523 50  0000 C CNN
+F 2 "" H 3200 5350 50  0001 C CNN
+F 3 "" H 3200 5350 50  0001 C CNN
+	1    3200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D565434
+P 3200 5650
+AR Path="/5D4A7E61/5D565434" Ref="#PWR?"  Part="1" 
+AR Path="/5D565434" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D565434" Ref="#PWR087"  Part="1" 
+F 0 "#PWR087" H 3200 5500 50  0001 C CNN
+F 1 "VSS" H 3218 5823 50  0000 C CNN
+F 2 "" H 3200 5650 50  0001 C CNN
+F 3 "" H 3200 5650 50  0001 C CNN
+	1    3200 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D56543A
+P 3500 5500
+AR Path="/5D4A7E61/5D56543A" Ref="C?"  Part="1" 
+AR Path="/5D56543A" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D56543A" Ref="C47"  Part="1" 
+F 0 "C47" H 3615 5546 50  0000 L CNN
+F 1 "C" H 3615 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3538 5350 50  0001 C CNN
+F 3 "~" H 3500 5500 50  0001 C CNN
+	1    3500 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D565440
+P 3500 5350
+AR Path="/5D4A7E61/5D565440" Ref="#PWR?"  Part="1" 
+AR Path="/5D565440" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D565440" Ref="#PWR098"  Part="1" 
+F 0 "#PWR098" H 3500 5200 50  0001 C CNN
+F 1 "VD" H 3517 5523 50  0000 C CNN
+F 2 "" H 3500 5350 50  0001 C CNN
+F 3 "" H 3500 5350 50  0001 C CNN
+	1    3500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D565446
+P 3500 5650
+AR Path="/5D4A7E61/5D565446" Ref="#PWR?"  Part="1" 
+AR Path="/5D565446" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D565446" Ref="#PWR099"  Part="1" 
+F 0 "#PWR099" H 3500 5500 50  0001 C CNN
+F 1 "VSS" H 3518 5823 50  0000 C CNN
+F 2 "" H 3500 5650 50  0001 C CNN
+F 3 "" H 3500 5650 50  0001 C CNN
+	1    3500 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D56544C
+P 3800 5500
+AR Path="/5D4A7E61/5D56544C" Ref="C?"  Part="1" 
+AR Path="/5D56544C" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D56544C" Ref="C53"  Part="1" 
+F 0 "C53" H 3915 5546 50  0000 L CNN
+F 1 "C" H 3915 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3838 5350 50  0001 C CNN
+F 3 "~" H 3800 5500 50  0001 C CNN
+	1    3800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D565452
+P 3800 5350
+AR Path="/5D4A7E61/5D565452" Ref="#PWR?"  Part="1" 
+AR Path="/5D565452" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D565452" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 3800 5200 50  0001 C CNN
+F 1 "VD" H 3817 5523 50  0000 C CNN
+F 2 "" H 3800 5350 50  0001 C CNN
+F 3 "" H 3800 5350 50  0001 C CNN
+	1    3800 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D565458
+P 3800 5650
+AR Path="/5D4A7E61/5D565458" Ref="#PWR?"  Part="1" 
+AR Path="/5D565458" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D565458" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 3800 5500 50  0001 C CNN
+F 1 "VSS" H 3818 5823 50  0000 C CNN
+F 2 "" H 3800 5650 50  0001 C CNN
+F 3 "" H 3800 5650 50  0001 C CNN
+	1    3800 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D56545E
+P 4100 5500
+AR Path="/5D4A7E61/5D56545E" Ref="C?"  Part="1" 
+AR Path="/5D56545E" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D56545E" Ref="C59"  Part="1" 
+F 0 "C59" H 4215 5546 50  0000 L CNN
+F 1 "C" H 4215 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 5350 50  0001 C CNN
+F 3 "~" H 4100 5500 50  0001 C CNN
+	1    4100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D565464
+P 4100 5350
+AR Path="/5D4A7E61/5D565464" Ref="#PWR?"  Part="1" 
+AR Path="/5D565464" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D565464" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 4100 5200 50  0001 C CNN
+F 1 "VD" H 4117 5523 50  0000 C CNN
+F 2 "" H 4100 5350 50  0001 C CNN
+F 3 "" H 4100 5350 50  0001 C CNN
+	1    4100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D56546A
+P 4100 5650
+AR Path="/5D4A7E61/5D56546A" Ref="#PWR?"  Part="1" 
+AR Path="/5D56546A" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D56546A" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 4100 5500 50  0001 C CNN
+F 1 "VSS" H 4118 5823 50  0000 C CNN
+F 2 "" H 4100 5650 50  0001 C CNN
+F 3 "" H 4100 5650 50  0001 C CNN
+	1    4100 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D565470
+P 4400 5500
+AR Path="/5D4A7E61/5D565470" Ref="C?"  Part="1" 
+AR Path="/5D565470" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D565470" Ref="C65"  Part="1" 
+F 0 "C65" H 4515 5546 50  0000 L CNN
+F 1 "C" H 4515 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4438 5350 50  0001 C CNN
+F 3 "~" H 4400 5500 50  0001 C CNN
+	1    4400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D565476
+P 4400 5350
+AR Path="/5D4A7E61/5D565476" Ref="#PWR?"  Part="1" 
+AR Path="/5D565476" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D565476" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 4400 5200 50  0001 C CNN
+F 1 "VD" H 4417 5523 50  0000 C CNN
+F 2 "" H 4400 5350 50  0001 C CNN
+F 3 "" H 4400 5350 50  0001 C CNN
+	1    4400 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D56547C
+P 4400 5650
+AR Path="/5D4A7E61/5D56547C" Ref="#PWR?"  Part="1" 
+AR Path="/5D56547C" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D56547C" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 4400 5500 50  0001 C CNN
+F 1 "VSS" H 4418 5823 50  0000 C CNN
+F 2 "" H 4400 5650 50  0001 C CNN
+F 3 "" H 4400 5650 50  0001 C CNN
+	1    4400 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D565482
+P 4700 5500
+AR Path="/5D4A7E61/5D565482" Ref="C?"  Part="1" 
+AR Path="/5D565482" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D565482" Ref="C71"  Part="1" 
+F 0 "C71" H 4815 5546 50  0000 L CNN
+F 1 "C" H 4815 5455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4738 5350 50  0001 C CNN
+F 3 "~" H 4700 5500 50  0001 C CNN
+	1    4700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D565488
+P 4700 5350
+AR Path="/5D4A7E61/5D565488" Ref="#PWR?"  Part="1" 
+AR Path="/5D565488" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D565488" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR0146" H 4700 5200 50  0001 C CNN
+F 1 "VD" H 4717 5523 50  0000 C CNN
+F 2 "" H 4700 5350 50  0001 C CNN
+F 3 "" H 4700 5350 50  0001 C CNN
+	1    4700 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D56548E
+P 4700 5650
+AR Path="/5D4A7E61/5D56548E" Ref="#PWR?"  Part="1" 
+AR Path="/5D56548E" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D56548E" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 4700 5500 50  0001 C CNN
+F 1 "VSS" H 4718 5823 50  0000 C CNN
+F 2 "" H 4700 5650 50  0001 C CNN
+F 3 "" H 4700 5650 50  0001 C CNN
+	1    4700 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D56C590
+P 2300 6400
+AR Path="/5D4A7E61/5D56C590" Ref="C?"  Part="1" 
+AR Path="/5D56C590" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D56C590" Ref="C22"  Part="1" 
+F 0 "C22" H 2415 6446 50  0000 L CNN
+F 1 "C" H 2415 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 6250 50  0001 C CNN
+F 3 "~" H 2300 6400 50  0001 C CNN
+	1    2300 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D56C596
+P 2300 6250
+AR Path="/5D4A7E61/5D56C596" Ref="#PWR?"  Part="1" 
+AR Path="/5D56C596" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D56C596" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 2300 6100 50  0001 C CNN
+F 1 "VD" H 2317 6423 50  0000 C CNN
+F 2 "" H 2300 6250 50  0001 C CNN
+F 3 "" H 2300 6250 50  0001 C CNN
+	1    2300 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D56C59C
+P 2300 6550
+AR Path="/5D4A7E61/5D56C59C" Ref="#PWR?"  Part="1" 
+AR Path="/5D56C59C" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D56C59C" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 2300 6400 50  0001 C CNN
+F 1 "VSS" H 2318 6723 50  0000 C CNN
+F 2 "" H 2300 6550 50  0001 C CNN
+F 3 "" H 2300 6550 50  0001 C CNN
+	1    2300 6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D56C5A2
+P 2600 6400
+AR Path="/5D4A7E61/5D56C5A2" Ref="C?"  Part="1" 
+AR Path="/5D56C5A2" Ref="C?"  Part="1" 
+AR Path="/5D5184B0/5D56C5A2" Ref="C29"  Part="1" 
+F 0 "C29" H 2715 6446 50  0000 L CNN
+F 1 "C" H 2715 6355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2638 6250 50  0001 C CNN
+F 3 "~" H 2600 6400 50  0001 C CNN
+	1    2600 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VD #PWR?
+U 1 1 5D56C5A8
+P 2600 6250
+AR Path="/5D4A7E61/5D56C5A8" Ref="#PWR?"  Part="1" 
+AR Path="/5D56C5A8" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D56C5A8" Ref="#PWR062"  Part="1" 
+F 0 "#PWR062" H 2600 6100 50  0001 C CNN
+F 1 "VD" H 2617 6423 50  0000 C CNN
+F 2 "" H 2600 6250 50  0001 C CNN
+F 3 "" H 2600 6250 50  0001 C CNN
+	1    2600 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5D56C5AE
+P 2600 6550
+AR Path="/5D4A7E61/5D56C5AE" Ref="#PWR?"  Part="1" 
+AR Path="/5D56C5AE" Ref="#PWR?"  Part="1" 
+AR Path="/5D5184B0/5D56C5AE" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 2600 6400 50  0001 C CNN
+F 1 "VSS" H 2618 6723 50  0000 C CNN
+F 2 "" H 2600 6550 50  0001 C CNN
+F 3 "" H 2600 6550 50  0001 C CNN
+	1    2600 6550
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
